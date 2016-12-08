@@ -16,7 +16,7 @@ video {
 
 .bodycopy {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 
@@ -35,6 +35,13 @@ video {
 		padding: 10px;
 		margin: 5px;
 
+}
+	.videobanner {
+
+	}
+
+	.photobanner {
+		display: none;
 	}
 
 .subhead {
@@ -70,17 +77,25 @@ video {
 	margin: 10px;
 
 }
+
+.videobanner {
+	display: none;
+}
+
+.photobanner {
+
+}
 }
 
 </style>
 </head>
 
 <body>
-    <video loop muted autoplay poster="img/videoframe.jpg">
+    <video class="videobanner topfade" loop muted autoplay poster="img/videoframe.jpg">
         <source src="https://s3.amazonaws.com/media.bsd/30988_frankowebloopo.webm" type="video/webm">
         <source src="https://s3.amazonaws.com/media.bsd/30988_frankowebloopo.mp4" type="video/mp4">
     </video>
-
+    <img class="photobanner" src="http://placehold.it/500x350" style="width:100%">
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
@@ -125,4 +140,11 @@ video {
 </div>
 
 </body>
+
+<script>
+$(window).scroll(function(){
+    $(".topfade").css("opacity", 1 - $(window).scrollTop() / 500);
+  });
+</script>
+
 </html>
