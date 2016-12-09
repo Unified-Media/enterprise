@@ -34,6 +34,17 @@ figcaption {
     opacity:0;
 }
 
+.modal.large {
+    width: 80%; /* respsonsive width */
+    margin-left:-40%; /* width/2) */ 
+}
+
+.sidebar {
+	font-size: 30px;
+	font-weight: bold;
+	color: #cc0000;
+}
+
 @media screen and (min-width: 992px) {
 	.headline {
 	font-family: 'Playfair Display', serif;
@@ -62,6 +73,14 @@ figcaption {
 	.photobanner {
 		display: none;
 	}
+
+.mobilefinal {
+	display: none;
+}
+
+.creditsmobile {
+	display: none;
+}
 
 .subhead {
 	font-family: 'Playfair Display', serif;
@@ -112,8 +131,12 @@ figcaption {
 	display: none;
 }
 
-.photobanner {
+.desktopfinal {
+	display: none;
+}
 
+.creditsdesktop {
+	display: none;
 }
 
 .smallpic {
@@ -131,7 +154,7 @@ figcaption {
         <source src="https://s3.amazonaws.com/media.bsd/30988_frankowebloopo.webm" type="video/webm">
         <source src="https://s3.amazonaws.com/media.bsd/30988_frankowebloopo.mp4" type="video/mp4">
     </video>
-    <img class="photobanner" src="https://s3.amazonaws.com/media.bsd/31019_housefamily_enterprise_030_mobiletopperf.jpg" style="width:100%">
+    <img class="photobanner topfade" src="https://s3.amazonaws.com/media.bsd/31019_housefamily_enterprise_030_mobiletopperf.jpg" style="width:100%">
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
@@ -141,6 +164,9 @@ figcaption {
 	</div>
 	<hr>
 	<div class="col-sm-9 bodycopy">
+		<p class="creditsdesktop" style="color:#7e7e7e"><b>Robby General</b><span class="photocredit"> // Story</span>&emsp;<b>Breanna Daugherty</b><span class="photocredit"> // Photography</span>&emsp;<b>Ryan Shank</b><span class="photocredit"> // Videography</span>&emsp;</p>
+		<p class="creditsmobile" style="color:#7e7e7e"><b>Robby General</b><span class="photocredit"> // Story</span><br><b>Breanna Daugherty</b><span class="photocredit"> // Photography</span><br><b>Ryan Shank</b><span class="photocredit"> // Videography</span><br></p>
+
 		<p>After practice on Thanksgiving Day last year, Ball State men&rsquo;s basketball head coach James Whitford pulled each player and coach into a huddle.</p>
 		<p>He instructed each one of them to go around and share what they were thankful for. Many of the responses were team-related, as the Cardinals were off to one of their hottest starts in recent memory.</p>
 		<p>But then-junior forward Franko House had something else on his mind. He was thinking about his long-time girlfriend Morgan Jantzi, and the news he learned a few weeks before.</p>
@@ -152,7 +178,7 @@ figcaption {
 		<p>&ldquo;I was too nervous, I wasn&rsquo;t going to come out and say it there,&rdquo; House said. &ldquo;In the back of my head I&rsquo;m thinking, &lsquo;Man, I&rsquo;m about to have a baby too and they don&rsquo;t know.&rsquo;&rdquo;</p>
 	</div>
 	<a href="http://www.ballstatedaily.com/gallery/frankos-house" target="_blank">
-	<div class="col-sm-2 aside" style="font-family: 'Roboto'; font-size:15px">
+	<div class="col-sm-2 aside fadein" style="font-family: 'Roboto'; font-size:15px">
 		<b>Gallery</b>
 		<p style="color: #7e7e7e">Get an inside look into 'Franko's House'</p>
 		<img src="https://s3.amazonaws.com/media.bsd/31065_housefamily_enterprise_gallery_001f.JPG">
@@ -164,6 +190,12 @@ figcaption {
 		<p>The only person who knew of Morgan Jantzi&rsquo;s pregnancy&nbsp;during the first 10 weeks was her mother, Michelle Jantzi.</p>
 		<p>Around Halloween in 2015, Morgan Jantzi began to feel sick in the mornings and eventually decided to go with House to buy a pregnancy test.</p>
 		<p>The test confirmed the couple&rsquo;s feeling &mdash; they were going to have a baby.</p>
+	<figure class="smallpic">
+	<img class="smallpic" src="https://s3.amazonaws.com/media.bsd/31018_housefamily_enterprise_083_webpagef.JPG">
+	<figcaption>After each game, Morgan Jantzi waits her for fiance Franko House to walk out of the locker room. As soon as he walks out, it's like he had just come home; immediately picking up Carter House and holding him his arms. On days when Morgan Jantzi doesn't have classes, she spend the day with Carter and Titan, their rescue Siberian Husky, in the home they share just off campus.
+	<br><span class="photocredit">Breanna Daugherty // DN</span>
+	</figcaption>
+	</figure>
 		<p>&ldquo;We were just so scared and nervous, and I didn&rsquo;t even know what to do,&rdquo; Morgan Jantzi said. &ldquo;I didn&rsquo;t know what doctor&rsquo;s office to contact. I didn&rsquo;t know anything about it.&rdquo;</p>
 		<p>It was mid-November when the couple decided they needed to let somebody know. So they set up a dinner with Michelle Jantzi.</p>
 		<p>As they sat down, they were choking on their words, not knowing exactly what to say or how to say it.</p>
@@ -178,12 +210,49 @@ figcaption {
 		<p>He first approached Thornton, his position coach, and a man he considers a big brother. After practice one day, House pulled him aside and said, &ldquo;Hey, we need to talk.&rdquo;</p>
 		<p>&ldquo;I&rsquo;ll never forget it. We sat in the end zone of the gym and he told me that Morgan was pregnant,&rdquo; Thornton said. &ldquo;I hugged him and said, &lsquo;Hey man, it&rsquo;s going to change your life.&rsquo;&rdquo;</p>
 	</div>
+	<a href="#" data-toggle="modal" data-target="#videoModal">
+	<div class="col-sm-2 aside" style="font-family: 'Roboto'; font-size:15px; margin-top:25px">
+	<b>Video</b>
+	<p style="color: #7e7e7e">Franko tells his teammates</p>
+	<img src="https://bsd.getsnworks.com/media/00/00/03/11/31115_frankoscreenshot1f.png">
+	<span class="photocredit">Ryan Shank // DN</span>
+	</div>
+	</a>
+	</div>
 
-	<div class="col-sm-9 bodycopy">
+	<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <div>
+	          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/v/tDlUwxMxQ50' frameborder='0' allowfullscreen></iframe></div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+<figure>
+<img style="width:100%; margin-bottom: 15px" src="https://s3.amazonaws.com/media.bsd/31012_housefamily_enterprise_058_webpagef.jpg">
+<figcaption class="col-sm-12">On their days off together, Franko House and Morgan Jantzi spend their time watching sports or "Paw Patrol," Carter's favorite show. Throughout the week, when Jantzi doesn't have class at Ivy Tech, she spends the day with Carter until House comes home. When they both have class, Carter is dropped off at his aunt's.
+<span class="photocredit">Breanna Daugherty // DN</span>
+</figcaption>
+</figure>
+
+	<div class="container"">
+	<div class="row">
+	<div class="col-sm-9 bodycopy" style="margin-top:10px">
 		<p><span style="font-size: 22px;"><b>Becoming focused</b></span></p>
 		<p>After he broke the news to Thornton, House went to Grunkemeyer&rsquo;s office, knowing that each of the three men were going through the same thing at the same time.</p>
 		<p>&ldquo;I think it adds a real extra layer to what a typical coach-player relationship is,&rdquo; Grunkemeyer said. &ldquo;His son was born about a month after [Thornton&rsquo;s and my] kids were born, and so we&rsquo;re all kind of in the same phase of life. Any time you&rsquo;re ready to become a father it&rsquo;s a big deal, and it made us all kind of bond at that time.&rdquo;</p>
 		<p>Normally, coaches would worry about how a Division-l athlete and full-time student would handle becoming a father, but none of that seemed to be of too much concern for anyone on the coaching staff.</p>
+	<figure class="smallpic">
+	<img class="smallpic" src="https://s3.amazonaws.com/media.bsd/31013_housefamily_enterprise_055_webpagef.jpg">
+	<figcaption>On a regular day, Franko House wakes up and helps his fiancee Morgan Jantzi with Carter as much as he can before class or basketball practice. Some days he will clean bottles, feed Carter or change his diapers.
+	<span class="photocredit">Breanna Daugherty // DN</span>
+	</figcaption>
+	</figure>
 		<p>&ldquo;I think a lot of times when you have somebody who&rsquo;s young like Franko, have a child certainly earlier than planned, you can be overcome with worry as an adult,&rdquo; head coach James Whitford said. &ldquo;In Franko&rsquo;s case, I didn&rsquo;t really have that because he&rsquo;s in a relationship with somebody he deeply, deeply cares about. He&rsquo;s incredibly responsible as a person, mature well beyond his years.</p>
 		<p>&ldquo;There wasn&rsquo;t any part of me that felt like Franko wasn&rsquo;t ready for it and couldn&rsquo;t handle both elements of preparing for his career and be a father. I knew he could.&rdquo;</p>
 		<p>And Whitford was right.</p>
@@ -195,8 +264,32 @@ figcaption {
 		<p>Even with all of that going on, House still made it a point to attend every doctor&rsquo;s appointment and was there for his fiancee and son.</p>
 		<p>&ldquo;I had a good support cast because they wanted me to be involved with the ultrasounds, the first heartbeat and all of the little stuff that lot of people who are too busy aren&rsquo;t able to see,&rdquo; House said.</p>
 	</div>
+	</div>
 
-	<div class="col-sm-9 bodycopy">
+	<hr>
+	<div class="row">
+		<div class="col-sm-4">
+		<iframe width="323.00687863401777" height="217" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1Q_MN5oBlo3PaM_FxeH_R4y2GtJPgRda4YEoZhC3-GZE/pubchart?oid=1618002389&amp;format=interactive"></iframe>
+		</div>
+
+		<div class="col-sm-4">
+		<iframe width="323.00687863401777" height="217" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1Q_MN5oBlo3PaM_FxeH_R4y2GtJPgRda4YEoZhC3-GZE/pubchart?oid=2064633535&amp;format=interactive"></iframe>
+		</div>	
+
+		<div class="col-sm-4" style="padding-left:50px">
+		<b>2016-17 stats</b><span class="photocredit"> As of 12/9/2016</span><br>
+		<span class="sidebar">7</span> games started<br>
+		<span class="sidebar">95</span> points scored<br>
+		<span class="sidebar">81</span> assists<br>
+		<span class="sidebar">43</span> rebounds<br>
+		<span class="photocredit">Source: ballstatesports.com</span>
+		</div>
+	</div>
+	<hr>
+
+
+	<div class="row">
+	<div class="col-sm-9 bodycopy" style="margin-bottom: 5px">
 		<p><span style="font-size: 22px;"><b>New routine</b></span></p>
 		<figure class="smallpic">
 		<img class="smallpic" src="https://s3.amazonaws.com/media.bsd/31017_housefamily_enterprise_109_webpagef.JPG">
@@ -224,16 +317,26 @@ figcaption {
 		<p>&ldquo;The one thing I&rsquo;m really glad about is to know Franko in two ways: as a basketball player on the court, and when he&rsquo;s the dad and fiance,&rdquo; Michelle Jantzi said. &ldquo;He&rsquo;s an incredible person, and he&rsquo;s just taking really good care of his family and it&rsquo;s very impressive.&rdquo;</p>
 	</div>
 	</div>
+	</div>
 
 <figure>
 <img class="fadein" style="width:100%; margin-bottom: 10px" src="https://s3.amazonaws.com/media.bsd/31010_housefamily_enterprise_040_webpagef.jpg">
-<figcaption class="col-sm-12">After the Dec. 3 loss to IUPUI (73-62), it was a normal day at the home Franko House and Morgan Jantzi share with their son Carter. Around 12:30 p.m., Franko House continued his fatherly duties of feeding Carter. Before each bite, Franko House would say "oh," "ah" or "Carter" to maintain his attention as he ate sweet potatoes and applesauce.<br>
+<figcaption class="col-sm-12">After the Dec. 3 loss to IUPUI (73-62), it was a normal day at the home Franko House and Morgan Jantzi share with their son Carter. Around 12:30 p.m., Franko House continued his fatherly duties of feeding Carter. Before each bite, Franko House would say "oh," "ah" or "Carter" to maintain his attention as he ate sweet potatoes and applesauce.
 <span class="photocredit">Breanna Daugherty // DN</span>
 </figcaption>
+</figure>
 
 
 	<div class="container"">
 	<div class="row">
+<a href="#" data-toggle="modal" data-target="#futureModal" data-theVideo="https://www.youtube.com/v/xAp3_tAsmfw" >
+<div class="mobilefinal col-sm-2 aside fadein" style="font-family: 'Roboto'; font-size:15px; margin-top: 25px">
+<b>Video</b>
+<p style="color: #7e7e7e">Franko's future</p>
+<img src="https://s3.amazonaws.com/media.bsd/31116_frankoscreenshot2f.png">
+</div>
+</a>
+</div>
 	<div class="col-sm-9 bodycopy" style="padding-top:15px">
 		<p><span style="font-size: 22px;"><b>Moving forward</b></span></p>
 		<p>Carter has certainly added an extra dimension to House&rsquo;s life, but as he finishes his last season at Ball State, the goal remains the same &mdash; to play professional basketball.</p>
@@ -242,6 +345,12 @@ figcaption {
 		<p>&ldquo;I think he&rsquo;s going to have a chance to play basketball after college, I certainly do,&rdquo; Whitford said. &ldquo;He&rsquo;s doing everything he can to give him the best chance possible, but he&rsquo;s not one-dimensional in the sense that if that didn&rsquo;t happen.&rdquo;</p>
 		<p>This season, House became the 29th player in Ball State&rsquo;s history to reach 1,000 career points. In the first seven games of his senior season, he played some of his best collegiate basketball, averaging more points and more rebounds than any other year.</p>
 		<p>Still, professional basketball is one of the hardest industries to get into, which is why House has put his academics and family life first. If playing basketball doesn&rsquo;t work out, though, coaching is another avenue that interests him.</p>
+	<figure class="smallpic">
+	<img class="smallpic" src="https://s3.amazonaws.com/media.bsd/31016_housefamily_enterprise_091_webpagef.JPG">
+	<figcaption>Frank House and Morgan Jantzi learned they were going to have their first child together around Halloween last year. The first person to know what Jantzi's mother, Michelle Jantzi. After going to hear the heartbeat for the first time, House called his family to tell them the good news; screams of excitement filled the phone. From there, Housed told three of his coaches, and eventually his team at a team meeting.
+	<span class="photocredit">Breanna Daugherty // DN</span>
+	</figcaption>
+	</figure>
 		<p>For now, he remains focused on this season. No matter what happens, it&rsquo;s going to be hard for Ball State to replace someone like House.</p>
 		<p>&ldquo;I love him. He&rsquo;s a little brother to me,&rdquo; Thornton said. &ldquo;I&rsquo;m just really proud at how far he&rsquo;s come and how he&rsquo;s embraced this responsibility that he has.&rdquo;</p>
 		<p>While much of House&rsquo;s future remains uncertain, one thing remains for sure: wherever he goes, Morgan Jantzi and Carter will be there.</p>
@@ -250,7 +359,47 @@ figcaption {
 		<p>Away from the gym, House took time to text Thornton and Grunkemeyer, sharing with them what he was thankful for &mdash; to have coaches there for him through it all.</p>
 	</div>
 
-</div>
+
+	<a href="#" data-toggle="modal" data-target="#futureModal">
+	<div class="desktopfinal col-sm-2 aside" style="font-family: 'Roboto'; font-size:15px; margin-top: 25px">
+	<b>Video</b>
+	<p style="color: #7e7e7e">Franko's future</p>
+	<img src="https://s3.amazonaws.com/media.bsd/31116_frankoscreenshot2f.png">
+	<br><span class="photocredit">Ryan Shank // DN</span>
+	</div>
+	</a>
+	</div>
+
+	<div class="modal fade" id="futureModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <div>
+	          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/v/xAp3_tAsmfw' frameborder='0' allowfullscreen></iframe></div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	</div>
+	<hr>
+	<div class="col-sm-6" style="font-family: 'Roboto'; color:#7e7e7e; text-align: center">
+		<p>Story by <b>Robby General</b><br>
+		Photography by <b>Breanna Daugherty</b><br>
+		Videography by <b>Ryan Shank</b><br>
+		Design by <b>Tyson Bird</b><br></p>
+	</div>
+
+	<div class="col-sm-6" style="font-family:'Roboto'; color:#7e7e7e; text-align: center; margin-bottom:20px">
+		<br>
+		<p>Part of the <a href="http://enterprise.ballstatedaily.com">Unified Media enterprise</a> series and <br><a href="http://www.ballstatedaily.com">ballstatedaily.com
+	</div>
+	<hr>
+	</div>
+	<hr>
 
 <script>
 $(window).scroll(function(){
@@ -267,7 +416,7 @@ $(function() {
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
             /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
-            bottom_of_window = bottom_of_window + 200;  
+            bottom_of_window = bottom_of_window + 500;  
           
             if( bottom_of_window > bottom_of_object ){
                 
@@ -278,6 +427,7 @@ $(function() {
     
     });
 });
+
 </script>
 
 </body>
