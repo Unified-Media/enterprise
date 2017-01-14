@@ -1,0 +1,102 @@
+.intro {
+	padding-top: 80px;
+	font-family: 'Arvo', sans-serif;
+	font-size: 45px;
+}
+
+.intro #counter {
+	color: #CC0000;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 70px;
+
+}
+
+.footer {
+	font-size: 12px;
+	color: #BDBDBD;
+	text-align: left;
+}
+
+.footer a {
+	color: #BDBDBD;
+
+}
+
+.navbar a {
+	font-family: 'Playfair Display', serif;
+	color: #696969;
+	font-size: 18px;
+}
+
+li a {
+	color: black;
+}
+
+li a:hover {
+	color: #CC0000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+	.intro {
+	padding-top: 20px;
+	font-family: 'Arvo', sans-serif;
+	font-size: 25px;
+}
+
+.intro #counter {
+	color: #CC0000;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 45px;
+}
+}
+
+@media screen and (max-width: 992px) {
+	#g-PresidentTimeline-Artboard_1 {
+		display: none;
+	}
+
+	#g-PresidentTimeline-Artboard_4 {
+		display: none;
+	}
+
+	#g-PresidentTimeline-Artboard_2 {
+		display: block;
+	}
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+	#g-PresidentTimeline-Artboard_1 {
+		display: block;
+	}
+
+	#g-PresidentTimeline-Artboard_4 {
+		display: none;
+	}
+
+	#g-PresidentTimeline-Artboard_2 {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+	#g-PresidentTimeline-Artboard_1 {
+		display: none;
+	}
+
+	#g-PresidentTimeline-Artboard_4 {
+		display: block;
+	}
+
+	#g-PresidentTimeline-Artboard_2 {
+		display: none;
+	}
+
+}
+
+
