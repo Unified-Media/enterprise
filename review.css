@@ -1,164 +1,268 @@
 body {
 	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
-figcaption {
-	font-size: 13px;
 }
 
 .generalintro {
 	margin-top: 30px;
 }
 
-#circus {
+a {
+	color:white;
+}
+
+a:hover {
+	text-decoration:none;
+	color:white;
+}
+
+a:visited {
+	text-decoration: none;
+	color:white;
+}
+
+
+#mearns {
   background: 
-    /* top, transparent red, faked with gradient */ 
+    /* top, */ 
     linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)
+      rgba(11, 54, 83, 0.45), 
+      rgba(11, 54, 83, 0.45)
     ),
     /* bottom, image */
-    url('https://s3.amazonaws.com/media.bsd/35244_cirquemechanic017f.jpg');
+    url('https://s3.amazonaws.com/media.bsd/35282_yirmearnso.jpg');
+    position:relative;
 }
 
-#circus:hover {
-	background:url('https://s3.amazonaws.com/media.bsd/35244_cirquemechanic017f.jpg');
+#mearns:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35282_yirmearnso.jpg');
 }
 
-#brackenhouse {
+#mearns a:hover {
+	background-color:rgb(11, 54, 83);
+}
+
+#sutton {
   background: 
-    /* top, transparent red, faked with gradient */ 
+    /* top, */ 
     linear-gradient(
-      rgba(191, 63, 191, 0.45), 
-      rgba(191, 63, 191, 0.45)
+      rgba(238, 131, 49, 0.45), 
+      rgba(238, 131, 49, 0.45)
     ),
     /* bottom, image */
-    url('https://s3.amazonaws.com/media.bsd/33545_brackenhouse_17f.jpg');
+    url('https://s3.amazonaws.com/media.bsd/35285_yirsuttonfostero.jpg');
+    position:relative;
 }
 
-#brackenhouse:hover {
-	background:url('https://s3.amazonaws.com/media.bsd/33545_brackenhouse_17f.jpg');
-
+#sutton:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35285_yirsuttonfostero.jpg');
 }
 
-.introbutton {
-	background-color:transparent;
-	border:4px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:8px 15px;
-	text-decoration:none;
-	text-shadow: 0 0 15px #000000;
-}
-.introbutton:hover {
-	background-color:white;
-	text-decoration: none;
-	color: #ffffff;
+#sutton a:hover {
+	background-color:rgb(238, 131, 49);
 }
 
-.introbutton:visited {
-	text-decoration: none;
-	color: #ffffff;
+#mvb {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(190, 36, 45, 0.45), 
+      rgba(190, 36, 45, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35288_yirmensvbo.jpg');
+    position:relative;
 }
 
-.blackbutton {
-	background-color:transparent;
-	border:4px solid #000000;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-}
-.blackbutton:hover {
-	background-color:#753087;
-	text-decoration: none;
-	color: #000000;
+#mvb:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35288_yirmensvbo.jpg');
 }
 
-.blackbutton:visited {
-	text-decoration: none;
-	color: #000000;
+#mvb a:hover {
+	background-color:rgb(190, 36, 45);
 }
 
-.purplebutton {
-	border:4px solid #753087;
-	display:inline-block;
-	cursor:pointer;
-	color:#753087;
-	font-family:Arial;
-	font-size:17px;
-	padding:8px 15px;
-	text-decoration:none;
-}
-.purplebutton:hover {
-	text-decoration: underline;
+#wishes {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35292_gradwisheso.png');
+    position:relative;
 }
 
-.purplebutton:visited {
-	text-decoration: none;
-	color: #753087;
+#wishes:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35292_gradwisheso.png');
 }
 
-.redtext {
-	color: #CC0000; 
-	font-weight: 700;
-	font-family: 'Arvo';
-
+#wishes a:hover {
+	background-color:rgb(0, 0, 0);
 }
 
-.byline {
-	color: #D3D3D3;
-	font-style: italic;
+#lafollette {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(11, 54, 83, 0.45), 
+      rgba(11, 54, 83, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35298_yirlafolletteo.png');
+    position:relative;
 }
 
-.text-subhead {
-	font-family: 'Arvo', serif;
-	font-size: 25px;
-	color: #753087;
-	text-align: center;
+#lafollette:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35298_yirlafolletteo.png');
 }
 
-.quad-photo {
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-	float: left;
-	margin-right: 10px;
+#lafollette a:hover {
+	background-color:rgb(11, 54, 83);
 }
 
-.interim {
-	color: #753087;
-	font-weight: bold;
+#grande {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(190, 36, 45, 0.45), 
+      rgba(190, 36, 45, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35284_yirpointegrandeo.jpg');
+    position:relative;
 }
 
-.interim:hover {
-	color: #753087;
+#grande:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35284_yirpointegrandeo.jpg');
 }
 
-.updates a {
-	color: #753087;
+#grande a:hover {
+	background-color:rgb(190, 36, 45);
 }
 
-.updates a:hover {
-	color: #753087;
+#cats {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(238, 131, 49, 0.45), 
+      rgba(238, 131, 49, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35286_yirtwocatso.jpg');
+    position:relative;
 }
 
+#cats:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35286_yirtwocatso.jpg');
+}
+
+#cats a:hover {
+	background-color:rgb(238, 131, 49);
+}
+
+#goodwill {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(11, 54, 83, 0.45), 
+      rgba(11, 54, 83, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35283_yirgoodwillo.JPG');
+    position:relative;
+}
+
+#goodwill:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35283_yirgoodwillo.JPG');
+}
+
+#goodwill a:hover {
+	background-color:rgb(11, 54, 83);
+}
+
+#baseball {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(190, 36, 45, 0.45), 
+      rgba(190, 36, 45, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35281_yirkennedyo.JPG');
+    position:relative;
+}
+
+#baseball:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35281_yirkennedyo.JPG');
+}
+
+#baseball a:hover {
+	background-color:rgb(190, 36, 45);
+}
+
+#preschool {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(238, 131, 49, 0.45), 
+      rgba(238, 131, 49, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35287_yirpreschoolo.jpg');
+    position:relative;
+}
+
+#preschool:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35287_yirpreschoolo.jpg');
+}
+
+#preschool a:hover {
+	background-color:rgb(238, 131, 49);
+}
+
+#memories {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(11, 54, 83, 0.45), 
+      rgba(11, 54, 83, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35280_yirmemoriesf.jpg');
+    position:relative;
+}
+
+#memories:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35280_yirmemoriesf.jpg');
+}
+
+#memories a:hover {
+	background-color:rgb(11, 54, 83);
+}
+
+#peyton {
+  background: 
+    /* top, */ 
+    linear-gradient(
+      rgba(190, 36, 45, 0.45), 
+      rgba(190, 36, 45, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s3.amazonaws.com/media.bsd/35279_yirgollhofero.JPG');
+    position:relative;
+}
+
+#peyton:hover {
+	background:url('https://s3.amazonaws.com/media.bsd/35279_yirgollhofero.JPG');
+}
+
+#peyton a:hover {
+	background-color:rgb(190, 36, 45);
+}
+
+/*MOBILE*/
 @media screen and (max-width: 800px) {
-	.bigimage {
-	background: url('https://s3.amazonaws.com/media.bsd/31882_newpresident2017_031f.jpg') no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 800px;
-	}
 
 	.introtext {
 		font-family: 'Arvo';
@@ -168,13 +272,6 @@ figcaption {
 		letter-spacing: -1px;
 		text-shadow: 0 0 15px #000000;
 		line-height: 55px;
-	}
-
-	.subhead {
-		font-family: 'Arvo';
-		font-size: 25px;
-		color: white;
-		text-shadow: 0 0 15px #000000;
 	}
 
 	.intro {
@@ -188,12 +285,12 @@ figcaption {
 	}
 
 	.headline {
-	color: black;
-	font-weight: 700;
-	font-family: 'Arvo';
-	font-size: 45px;
+	font-weight: 400;
+	font-family: 'Playfair Display';
+	font-size: 60px;
 	letter-spacing: -1px;
-	line-height: 50px;
+	padding:10px;
+	line-height:60px;
 }
 
 	.deck {
@@ -231,13 +328,27 @@ figcaption {
 	.imagetext {
 		font-family: 'Playfair Display';
 		color: white;
-		font-size: 25px;
-		display: table-cell;
-		vertical-align:bottom;
+		font-size: 32px;
+		padding:20px;
+		position:absolute;
+		bottom: 0;
+		right: 0;
 	}
+
+	.subhead {
+		font-family: 'Roboto';
+		font-weight: 300;
+		font-size: 20px;
+		margin-bottom: 30px;
+		margin-left:10px;
+	}
+
 
 }
 
+
+
+/*DESKTOP*/
 @media screen and (min-width: 801px) {
 	.bigimage { 
     background: url('https://s3.amazonaws.com/media.bsd/31910_headernewnewpresident2017_036o.jpg') no-repeat center center; 
@@ -257,13 +368,6 @@ figcaption {
 		text-shadow: 0 0 15px #000000;
 	}
 
-	.subhead {
-		font-family: 'Arvo';
-		font-size: 60px;
-		color: white;
-		text-shadow: 0 0 15px #000000;
-	}
-
 	.intro {
 	margin-top: 50%; line-height: 65px
 }
@@ -274,11 +378,12 @@ figcaption {
 
 	.headline {
 	color: black;
-	font-weight: 700;
-	font-family: 'Arvo';
-	font-size: 60px;
-	letter-spacing: -1px;
-	line-height: 70px;
+	font-weight: 400;
+	font-family: 'Playfair Display';
+	font-size: 88px;
+	letter-spacing: -3px;
+	padding-top: 30px;
+	margin-bottom: 20px;
 }
 
 	.deck {
@@ -319,9 +424,18 @@ figcaption {
 		font-family: 'Playfair Display';
 		color: white;
 		font-size: 40px;
-		padding-top:20px;
-		padding-left:20px;
-	}	
+		padding-left: 5px;
+		position:absolute;
+		bottom: 0;
+/*		right: 0;
+*/	}
+
+	.subhead {
+		font-family: 'Roboto';
+		font-weight: 300;
+		font-size: 30px;
+		margin-bottom: 80px;
+	}
 
 }
 
