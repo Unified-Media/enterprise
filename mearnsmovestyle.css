@@ -346,7 +346,7 @@ img.hover-shadow {
 
 /* ---- For Mobile ---- */
 
-@media only screen (max-width: 1420px)
+@media only screen and (max-width: 1420px)
 {
     .header {
         background-size: 100%;
@@ -362,7 +362,7 @@ img.hover-shadow {
     }
 }
 
-@media (max-width: 1230px)
+@media only screen and (max-width: 1230px)
 {
     .header {
         height: 750px;
@@ -378,7 +378,7 @@ img.hover-shadow {
     }
 }
 
-@media (max-width: 1123px)
+@media only screen and (max-width: 1123px)
 {
     .header {
         height: 485px;
@@ -402,7 +402,7 @@ img.hover-shadow {
     }
 }
 
-@media (max-width: 1110px)
+@media only screen and (max-width: 1110px)
 {
     .header {
         height: 675px;
@@ -424,7 +424,7 @@ img.hover-shadow {
     }
 }
 
-@media (max-width: 1015px)
+@media only screen and (max-width: 1015px)
 {
     .header h1 {
         padding-left: 565px;
@@ -450,7 +450,7 @@ img.hover-shadow {
     }
 }
 
-@media (max-width: 860px)
+@media only screen and (max-width: 860px)
 {
     .header {
         height: 525px
@@ -479,7 +479,7 @@ img.hover-shadow {
     }
 }
 
-@media (max-width: 800px)
+@media only screen and (max-width: 800px)
 {
     .header {
         height: 525px;
@@ -489,7 +489,7 @@ img.hover-shadow {
     }
 }
 
-@media (max-width: 710px)
+@media only screen and (max-width: 710px)
 {
    .header {
          background-size: 130%;
@@ -531,7 +531,7 @@ img.hover-shadow {
      } 
 }
 
- @media (max-width: 400px)
+ @media only screen and (max-width: 480px)
  {
      .header {
          background-size: 130%;
