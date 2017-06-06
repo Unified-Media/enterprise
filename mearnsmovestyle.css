@@ -346,7 +346,7 @@ img.hover-shadow {
 
 /* ---- For Mobile ---- */
 
-@media (max-width: 1420px)
+@media only screen (max-width: 1420px)
 {
     .header {
         background-size: 100%;
