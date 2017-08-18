@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair");
+figcaption {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: italic;
+  font-size: 13px;
+  color: #7E7E7E;
+  padding-top: 3px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+}
+
+blockquote {
+  font: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 30px;
+  color: #C0392B;
+}
+
+body {
+  background: white;
+  color: #343435;
+  font-family: sans-serif;
+  letter-spacing: 0.4px;
+}
+
+.chapter-header {
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.creditsdesktop {
+  padding-left: 10px;
+}
+
+.post-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post {
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
+.quiet {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.first-post {
+  padding-left: 10px;
+  padding-right: 10px;
+}
