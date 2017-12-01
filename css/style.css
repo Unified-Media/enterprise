@@ -96,3 +96,20 @@ blockquote {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+  .headline {
+    font-size: 50px;
+    letter-spacing:-1px;
+  }
+}
+   .subhead {
+      font-size:25px;
+      letter-spacing:-1px;
+}
+}
