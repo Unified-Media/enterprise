@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Living Form Documentary/Enterprise</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36364013-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-36364013-3');
+</script>
+	
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
+      <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-36364013-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+<style>
+video {
+	width: 100%;
+}
+
+.bodycopy {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+figcaption {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: italic;
+	font-size: 13px;
+	color: #7E7E7E;
+}
+
+.photocredit {
+	font-size: 13px;
+}
+
+.fadein {
+    opacity:0;
+}
+
+.modal.large {
+    width: 80%; /* respsonsive width */
+    margin-left:-40%; /* width/2) */ 
+}
+
+.sidebar {
+	font-size: 30px;
+	font-weight: bold;
+	color: #cc0000;
+}
+
+@media screen and (min-width: 992px) {
+	.headline {
+	font-family: 'Playfair Display', serif;
+	font-size: 100px;
+	letter-spacing: -2.5px;
+}
+
+	.aside {
+	border-style: solid;
+	border-width: .5px;
+	border-color: #f1f1f1;
+	border-radius: 5px;
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+
+	}
+
+	.aside img {
+	width:100%;
+}
+
+	.photobanner {
+		display: none;
+	}
+
+.mobilevideo {
+	display: none;
+}
+
+.creditsmobile {
+	display: none;
+}
+
+.subhead {
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	letter-spacing: -.5px;
+	color: #7e7e7e;
+	line-height: 45px;
+}
+
+.smallpic {
+	width: 400px;
+  margin-left:20px;
+	float:right;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+	.headline {
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	letter-spacing: -2.5px;
+}
+
+.subhead {
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	letter-spacing: -.5px;
+	color: #7e7e7e;
+	line-height: 30px;
+}
+
+.aside {
+	border-style: solid;
+	border-width: .5px;
+	border-color: #f1f1f1;
+	border-radius: 5px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+
+}
+
+.aside img {
+	width:150px;
+}
+
+.imagebanner {
+	display: none;
+}
+
+.videoaside {
+	display: none;
+}
+
+.creditsdesktop {
+	display: none;
+}
+
+.smallpic {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+}
+
+</style>
+ <title>Living Form - The Ball State Daily News</title>
+
+</head>
+
+
+<body>
+  <!-- new navbar html boy oh boy -->
+  
+  <div class="topnav" id="myTopnav">
+  <a href="http://www.ballstatedaily.com/" target="_blank">More From The DN</a>
+  <a href="#docTarget">Documentary</a>
+  <a href="#storyTarget">Story</a>
+  <a href="#galleryTarget">Gallery</a>
+  <a href="#contactTarget">Contact</a>
+  <!-- Places logo on navbar -->
+  <div id= "logo">
+    <rmarg><img src= "https://s3.amazonaws.com/snwceomedia/bsd/c7696e4b-8f97-4164-aa24-fbda936286e1.sized-1000x1000.png" width="50" height="50" align= "right"></rmarg>
+ </div>
+ <!-- navbar button -->   
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<!-- fullscreen autoplay fading video -->
+    <img class="imagebanner topfade" src="https://s3.amazonaws.com/snwceomedia/bsd/be40d494-6f17-46c7-a250-e964ce642abf.sized-1000x1000.gif" width= 1000px style="width: 100%; opacity: 1;">
+       <!-- <img src="https://s3.amazonaws.com/snwceomedia/bsd/be40d494-6f17-46c7-a250-e964ce642abf.sized-1000x1000.gif">
+  </img>-->
+  <!-- banner image for mobile or if video doesn't load for whatever reason -->
+    <img class="photobanner topfade" src="https://s3.amazonaws.com/snwceomedia/bsd/b9a05818-f2e0-4cf4-af76-e8c1eca25e4a.sized-1000x1000.png" width= 700px  style="width: 100%; opacity: 1;">
+
+ 
+  
+  
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+      <!--replace link with DOC-->
+      <br>
+			<span class="subhead">Jonathan Becker has devoted his life to the study of theater and masks </span>
+		</div>
+	</div>
+	<hr>
+  <!-- top credit section under subhead -->
+	<div class="col-sm-9 bodycopy">
+		<p class="creditsdesktop" <p class="creditsdesktop" style="color:#7e7e7e"><b>Brooke Kemp</b><span class="photocredit"> // Story</span>&emsp;
+      <b>J.A. Fields</b><span class="photocredit"> // Photography</span>&emsp;
+    <b>Michael Himes and Emily Wright</b><span class="photocredit"> // Design and Development</span>&emsp;
+  </p>
+  <p class="creditsdesktop" style="color:#7e7e7e">
+  <b>Ryan Shank, Luke Stazy, Max Harp, J.A. Fields, Aaron Milbourn, Quentin Basnaw and Jake Helman</b><span class="photocredit"> // Videography</span>&emsp;</p>
+  <br>
+  <a name="docTarget"></a>
+  <div class= "video-responsive"><iframe width="1100" height="700" src="https://www.youtube.com/embed/8gUhqEstXtw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+  
+  <figcaption>The Ball State Daily News Documentary Presents: "Living Form."
+    <br><b><span class="photocredit">Ryan Shank, Luke Stazy, Max Harp, J.A. Fields, Aaron Milbourn, Quentin Basnaw, Jake Helman, DN</span></b>
+	</figcaption>
+  
+ <!-- begin body text --> 
+<a name="storyTarget"></a>
+		<hr><p>Behind a layer of synthetic rubber and paint, Jonathan Becker gains a greater understanding of himself and the world around him. </p>
+		<p>From his three-story home in downtown Muncie, Becker runs the North American Laboratory For the Performing Arts (NALPA) where he houses artists and makes masks.
+</p>
+		<p>“Theater has always been a really serious thing for me; it’s always been a place that I felt at home,” Becker said. “I’ve tried to escape it a number of times in my adult life, and I can never really get away; I’m always pulled back into it.
+</p>
+		<p>“I’ve found over the years that it’s something that I actually need in order to find fulfillment and to kind of survive my day … it’s the only place where I find that I’m confronted with myself constantly, and so I have the opportunity to grow and come to a greater understanding of me, but more importantly then apply that to the understanding of others.”
+</p>
+  
+  
+  	<figure class="smallpic" >
+	<img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/4659791e-f9e8-4c6c-b2cb-a8a2d86d6c24.sized-1000x1000.jpg" align="right">
+	<figcaption>Jonathan Becker sculpts water-based clay into the form of his client's desired mask. 
+    <br><b><span class="photocredit">J.A. Fields, DN</span></b>
+	</figcaption>
+	</figure>
+  
+  
+  
+  
+		<p>When he moved into his home eight years ago, Becker saw the potential the house had to cultivate artistry and founded NALPA to invite others to use the space to create, explore and connect through the arts.</p>
+		<p>On the third floor is a studio that is sometimes used for performances or other artistic projects. Most often, however, the space is used by Becker to create theatrical masks.</p>
+		<p>Even though Becker has always had an interest in theater, becoming a mask maker wasn’t part of his original plan. </p>
+		<p>“I trained as a dancer and as an actor,” Becker said. “I have no training in the visual arts at all, that was all a self-taught thing I had to learn.”</p>
+		<p>When he was 14-years-old, he attended a summer conference held by the National Clown Mime and Dance Puppet Ministry at Ithaca (New York) College. There, Becker was first exposed to the use of masks in performance when he discovered an artist using a straight-faced, neutral expression mask.  </p>
+	</div>
+
+	<div class="col-sm-9 bodycopy">
+    <p>“When he put the mask on, it was as if everything grew still, and when he tilted the mask the world changed, the fabric of the air seemed to shift,” Becker said.</p>
+		<p>It was that experience, Becker said, that inspired him to pursue the “idea of mask and performance with the mask." </p>
+		<p></p>
+		<p></p>
+
+		<p>Eventually, Becker was able to attend The International School of Theatre Jacques Lecoq in Paris and explored the use of masks in theater. Becker said the first year of study at The Jacques Lecoq School involved being trained on how to act under a mask, which required each student to create his or her own.</p>
+
+    
+    
+    
+	</div>
+	</div>
+</div>
+<br>
+<!-- fullscreen photo or video goes here -->
+<figure><div class= "video-responsive">
+  <iframe width=100% height="720" src="https://www.youtube.com/embed/Iv3cEe4m-mg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+  
+<figcaption class="col-sm-12">Jonathan Becker explains how actors emote through masks.
+  <b><span class="photocredit">Ryan Shank, Luke Stazy, Max Harp, J.A. Fields, Aaron Milbourn, Quentin Basnaw and Jake Helman, DN</span></b>
+</figcaption>
+</figure>
+<br> </br>
+	<div class="container" "=">
+	<div class="row">
+	<div class="col-sm-9 bodycopy" style="margin-top:10px">
+		<p>While his first mask was “beautiful to look at,” Becker said it was technically an “unmitigated failure.”</p>
+		<p>“The mask that I made was a dead form, so all masks for theatrical and performance use are what we refer to as expressive form, living sculpture,” Becker said. “They play, they appear to change expression as they move through space and my mask didn’t play. It was an expression mask, not an expressive mask.”</p>
+		<p>Becker knew the mask was unsuccessful, but he had to use it in class each day, which presented many difficulties as the deadline to determine which students would be accepted into their second year was approaching. </p>
+		<p>“My peers didn’t really want to work with me because the mask didn’t work, [they thought] there must be something wrong with me,” Becker said. “It was a huge failure that was constant and very present in my life every day for an extended period of time.”</p>
+		<p>That pressure, however, is something Becker said has defined him as an artist, and he considers it to be one of his most “successful endeavors.”</p>
+    
+    
+    	<figure class="smallpic" >
+	<img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/8dbffdbf-9a77-49e2-892f-8423fe49c0cf.sized-1000x1000.jpg" align="right">
+	<figcaption> Jonathan Becker trims a mask after removing it from the mold.
+    <br><b><span class="photocredit">J.A. Fields, DN</span></b>
+	</figcaption>
+	</figure>
+    
+    
+		<p>Even though his first mask was a failure, Becker felt he had to keep going. He wanted to continue in his training at The Jacques Lecoq School and to understand on a deeper level what’s below the surface of each sculpture, character and person. </p>
+		<p>“It’s not about winning something or being better, it’s what you’re getting from every moment of it,” Becker said. “I think that’s always been a part of what I am engaged in as an artist and was certainly what I was engaged in as a student. I wanted to learn something, so I kept going.”</p>
+		<p>With each mask he creates today, Becker said he is reminded of that first mask. 
+</p>
+		<p>“Every time I step in front of the sculpture stand, I’m still trying to solve the problem of that mask and trying to come to a better understanding of why it didn’t work,” Becker said. “I tell this story often to my students because I think we’re often afraid of failure, but in fact it’s a necessary thing for us in order to understand and to move us forward to success.” </p>
+		<p>While Becker was studying at Virginia Commonwealth University, Aaron Anderson, associate chair of theater, said Becker’s “profound understanding of the mask,” “the body in space” and “the relationship of space to other things and how space moves” made him more of a colleague than a student.
+</p>
+		<p>“You don’t really teach Jonathan as much as you unleash him,” Anderson said.
+      
+      
+ 
+      
+      
+      
+      
+</p>
+		<p>Anderson said working alongside Becker was a learning experience in the classroom and other collaborative projects.  
+</p>
+		<p>“He has a very deep sense of life, and he feels everything very intensely and tries to communicate to his students and the people he works with,” Anderson said. 
+</p>
+		<p>Becker is currently an assistant professor of theater at Ball State, where he shares his knowledge of theater, history and the arts with students. In his lessons, Becker implements his understanding of masks, utilizing different types of masks for different situations.  
+</p>
+		<p>Some masks are specifically used for actor training. When using such masks, Becker said the process is “hugely revealing” and “profoundly useful,” but also “incredibly difficult because it’s requiring them to live from the inside out and to be comfortable.” 
+</p>
+		<p>When a mask covers an actor's face, it takes away their ability to rely solely on facial expressions in performance and communication, and forces the performer to explore on a deeper level and “create honesty in the moment.” 
+</p>
+		<p>“When you lie under a mask, it dies. The form itself becomes lifeless, and it’s really obvious to everyone who’s watching” Becker said. “Masks are so present and so alive that when they’re actually in a moment of truth they’re really compelling, they’re hard to look away from. The masks also reveal to us really the innermost thoughts and habitual tension and reasons for those tensions that actors have as people.” 
+</p>
+  
+  </div>
+	</div>
+</div>  
+    
+<figure>
+<div class= "video-responsive"><iframe width=100% height="580" src="https://www.youtube.com/embed/q3wnB3ncVlc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<figcaption class="col-sm-12">Jonathan Becker explains the difference between masks in America and in other cultures.
+<b><span class="photocredit">Ryan Shank, Luke Stazy, Max Harp, J.A. Fields, Aaron Milbourn, Quentin Basnaw and Jake Helman,  DN</span>
+  </figcaption></b>
+</figure>
+
+<br> </br>
+
+	<div class="container" "=">
+	<div class="row">
+	<div class="col-sm-9 bodycopy" style="margin-top:10px">
+
+
+		<p>Throughout history, masks have also held a wide range of cultural significance.
+</p>
+		<p>In the United States, Becker said masks aren’t often seen in theater because they’re viewed as costumes “as opposed to something that reveals to us who we are.” 
+</p>
+		<p>While masks like those of Darth Vader from “Star Wars” and Freddy Kreuger from “Friday the 13th” hold cultural significance in America, Becker said masks have grown out of the cultural fabric of places and people who have a series of stories that hold them together.</p>
+		<p>Starting with cave drawings and reenactments of “the hunt,” Becker said the “history of masks in theater is extensive,” and the use of masks in storytelling can be seen in many different eras, from Greek theater to Asian mask practices. 
+</p>
+		<p>“Even today, when we appropriate these cultural norms and we toss them into something like ‘The Lion King,’ now we have this hybrid experience that has within it the ritual practices of the indigenous peoples it came out of,” Becker said. 
+</p>
+		<p>While the use of masks in theater has evolved, Becker said it has “remained exactly the same” at its core. 
+</p>
+		<p>“Within [masks are] the stories of who we are, and they provoke in an audience a greater degree of understanding and empathy in an acceptance of our own humanity,” Becker said. “They’re incredibly mechanical in their mastery, and so we don’t see them in performance often because of the difficulty that they require. Also, we don’t have a tradition … in our performance area so we’re focused on what we already know and practice.”
+</p>
+
+  </div>
+	</div>
+</div>  
+    
+<figure>
+<div class= "video-responsive"><iframe width=100% height="580" src="https://youtube.com/embed/SiDu3_lx-Zs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<figcaption class="col-sm-12">Jonathan Becker explains the origin of mask performance.
+<b><span class="photocredit">Ryan Shank, Luke Stazy, Max Harp, J.A. Fields, Aaron Milbourn, Quentin Basnaw and Jake Helman,  DN</span></b>
+</figcaption>
+</figure>
+<br> </br>
+
+    
+	<div class="container" "=">
+	<div class="row">
+	<div class="col-sm-9 bodycopy" style="margin-bottom: 5px">
+
+
+   <p>Throughout Becker’s education, many of the schools he attended had focused on creating something that doesn’t exist. 
+</p>
+   <p>Carl Schafer, owner of Gordy Fine Art and Framing Company, said Becker is able to “look very holistically at creativity in all kinds of media.”
+</p>
+   <p>“He is very purposefully and in a very creative way drawing on history … and able to give [characters] life because they have something relevant to say to what’s going on,” Schafer said. “He’s [bringing characters to life] in a sidelong way with a lot of knowledge about who those characters were and then making a new version of some of these characters and allowing them to speak to us.”</p>
+   <p>The pair met when Schafer was the associate director of the David Owsley Museum. 
+</p>
+   <p>While Becker was preparing for a performance in the museum, he asked Schafer for feedback on his performance, even though the two had just met. 
+</p>
+    
+    	<figure class="smallpic" >
+	<img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/f95f5f8c-4342-4e4d-880f-48967a9b7b1a.sized-1000x1000.jpg" align="right">
+	<figcaption>Jonathan Becker sorts his inventory of molds. The molds are saved after their initial use to be reused for future masks.
+    <br><b><span class="photocredit">J.A. Fields, DN</span></b>
+	</figcaption>
+	</figure>
+    
+    
+   <p>“I was very impressed with Jonathan’s generosity in his creativity,” Schafer said. “He has no reservations about sharing this creativity with others … he really welcomes feedback and he uses it.”
+</p>
+   <p>Because of his passion to learn and openness to receiving feedback, Becker’s process in creating works of theater and masks has evolved. 
+</p>
+   <p>His methods of creating have also been impacted by where he is in the world. 
+</p>
+   <p>Becker’s first studio, where he created masks, was on the landing outside his apartment in Binghamton, New York. The space was the size of a small table, and Becker said if he stepped backwards he would fall down the stairwell.
+</p>
+   <p>As his mask-making business continued, Becker realized he needed to buy a home in order to have the proper amount of space to meet the demand of his customers. The first home Becker bought was roughly 3,600 square feet and located in Muncie.
+</p>
+   <p>It wasn’t until he attended the East Washington Street Fair in Muncie that he was introduced to his current home. His friend invited him to take a tour of the historical houses in the district, and upon entering one building, he was struck by its beauty.
+</p>
+   <p>As Becker was admiring the home, his realtor greeted him and offered to take him on an extended version of the house tour, where he was able to explore the third floor of the house.</p>
+   <p>Becker decided to make the move, and now, on the third floor alone, Becker has about 3,300 square feet to work in.
+</p>
+   <p>Becker creates several different types of masks — including Commedia Dell’Arte Masks, Character Masks, Neutral Masks, Greek Masks, Comedy/Tragedy Masks, Mardi Gras and Costume Masks and Larval Masks — all of which are exclusively available through his website, Theater-Masks.com.
+</p>
+ 
+	</div>
+	</div>
+	</div>
+
+<figure>
+<div class= "video-responsive"><iframe width=100% height="580" src="https://youtube.com/embed/ogsrV3I6vVU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<figcaption class="col-sm-12">Jonathan Becker explains his mask making process.
+<b><span class="photocredit">Ryan Shank, Luke Stazy, Max Harp, J.A. Fields, Aaron Milbourn, Quentin Basnaw and Jake Helman, DN</span></b>
+</figcaption>
+</figure>
+<br> </br>
+	<div class="container">
+	
+	<div class="col-sm-9 bodycopy" style="padding-top:15px">
+
+
+    <p>Often, when ordering a mask, Becker’s clients send pictures that provide a basic idea of what they want made. 
+</p>   
+    <p>Water-based clay is used to sculpt the form of Becker’s masks, and then a box is built around the clay so he can pour a plaster mold, which will create a negative version of the mask. 
+</p>   
+    <p>Once the plaster dries, Becker removes the clay, cleans the mold, and pours neoprene, an industrial, rigid latex, which will sit in the mold for several hours so a film of latex conforms to the shape.
+</p>   
+    <p>The excess neoprene is poured out, and when the layer that is left has fully dried, it too is removed from the mold. Becker then trims the mask, paints it, and finally attaches straps and padding before he sends it to his customer. 
+</p>   
+    <p>“A lot of the very best mask makers work in leather, and what Jonathan does is have an artisan’s sense of the mask in a more affordable form,” Anderson said. </p>   
+    <p>While Becker approaches each mask with a more developed understanding of the tools he is using, he said each mask demands a similar thought process. 
+</p>   
+    <p>“I’m at a constant place of beginning again. It’s the fear that is associated with doing things that we’re not familiar with is always very present, in much the same way as it was in that first mask that I attempted,” Becker said. “The process is the same, but I’m hoping the outcome is different.”
+</p>   
+    <p>Becker’s colleagues refer to him as a master mask maker given the time he has put into studying and perfecting his craft, but Becker said he is unsure if he has earned the title. He said he is simply trying to “create as much integrity in what it is that I do each time I do it,” and watching others perform with the masks he has made is a “glorious” experience.  
+</p>   
+    <p>“I love that I can see other artists being inspired by work that I have done,” Becker said. “ I really am touched and inspired to do more when I get the opportunity to see the masks being used.” 
+</p>   
+    
+    	<figure class="smallpic" >
+	<img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/5b34d9dc-4f9b-45c3-a432-ae969b023dd0.sized-1000x1000.jpg" align="right">
+	<figcaption>In the inventory room, Jonathan Becker stores all of the masks he has made that have yet to be purchased or sent to customers.
+    <br><b><span class="photocredit">J.A. Fields, DN</span></b>
+	</figcaption>
+	</figure>
+    
+    
+    <p>Eva Patton, associate professor of acting at Ball State, has worked with Becker on a number of projects, and said he’s a “superb colleague” who balances all of his responsibilities well and is an asset to both students and educators in the Department of Theatre and Dance. 
+</p>   
+    <p>Becker said he wouldn’t have been able to achieve his success without the support of those closest to him. 
+</p>   
+    <p>“Every job that came down the road or opportunity that lead to a job came through friends and colleagues, people that I had met along the way,” Becker said. “And in the beginning and still the support of my family has been huge, and that’s an opportunity that I think a lot of people don’t get and I have been incredibly lucky with that.”
+</p>   
+    <p>Becker said he is not sure where his passion will lead him, but he knows that success isn’t something that has simply been given to him.
+</p>   
+    <p>“Opportunity is something you create for yourself — no one hands it to you — or you see it and you immediately leap into it and you turn it into what it is that you’re interested in,” Becker said. 
+</p>   
+    <p>When opportunities appear, he said, “always say yes.”
+</p>   
+
+<br> </br>
+
+	</div>
+  <div class="gallery">
+  <img class="mySlides"  src="https://s3.amazonaws.com/snwceomedia/bsd/4659791e-f9e8-4c6c-b2cb-a8a2d86d6c24.sized-1000x1000.jpg" >
+  <img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/5b34d9dc-4f9b-45c3-a432-ae969b023dd0.sized-1000x1000.jpg" >
+  <img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/cc6a85b0-5e3e-4f82-8b0b-390e1ddb7421.sized-1000x1000.jpg" >
+  <img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/c1d8010a-5a21-4d3d-a6e8-d5d894550c38.sized-1000x1000.jpg" >
+ <img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/701f2c3f-c333-4323-a347-25e2c00f4cf7.sized-1000x1000.jpg" >
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/8dbffdbf-9a77-49e2-892f-8423fe49c0cf.sized-1000x1000.jpg" >
+  
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/730e6410-ae53-405b-a834-9e8325b1b35e.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/8d5f656d-5b73-4461-b3f3-c494c3773032.sized-1000x1000.jpg" >
+
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/05b97ff3-4922-4ac2-a7df-89810f38547b.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/ee857754-da8c-438f-a0f1-1a439893d28b.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/aff97096-a26b-46ba-9ee8-9a5db53dbb09.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/aa4e971e-4f4d-4ae8-994a-609100c59884.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/6106cc69-73ef-4ba8-a421-80f626df2754.sized-1000x1000.jpg" >
+   
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/86f0c455-5548-48ca-9d16-258e3a0622bf.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/ef089735-23e3-4d98-a974-ba50b5a4a42b.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/f95f5f8c-4342-4e4d-880f-48967a9b7b1a.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/ccce2dc8-138f-45ed-93a6-5e1e0b8a09d0.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/a7373358-93d3-4494-a3cc-372234ff1e1c.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/cc1135e5-1b5b-49f4-bf2e-86cdaeedbade.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/9d0a339c-e9b0-43b1-a2aa-91f91423b7bc.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/1bd77548-0683-4730-9a18-ee3c03820d10.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/07412199-e2bb-4b87-88fa-ad697c38ae53.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/81400f87-e57f-48e0-9882-41756f908310.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/d9382d0a-9b8f-42b5-a7e4-103c6c1caa9a.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/f9c29711-45db-47bd-ad5c-c93a1dba6c61.sized-1000x1000.jpg" >
+    
+<img class="mySlides" src="https://s3.amazonaws.com/snwceomedia/bsd/1eaa6d4b-f9b7-4f8a-bfc4-481ba248fe4d.sized-1000x1000.jpg" >
+
+
+  <button class="left button" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="right button" onclick="plusDivs(1)">&#10095;</button>
+<a name="galleryTarget"></a>
+</div>                     
+	</div>
+	</a>
+	</div>
+
+
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	
+	<hr>
+	<div class="col-sm-6" style="font-family: 'Roboto'; color:#7e7e7e; text-align: left">
+		Story by <b>Brooke Kemp</b><br>
+		Photography by <b>J.A. Fields</b><br>
+		
+		Design and Development by <b>Michael Himes and Emily Wright</b><br>
+   Videography by <b>Ryan Shank, Luke Stazy, Max Harp, J.A. Fields, Aaron Milbourn, Quentin Basnaw and Jake Helman</b><br></p>                                                                                     
+	</div>
+<a name="contactTarget"></a>
+	<div class="col-sm-6" style="font-family:'Roboto'; color:#7e7e7e; text-align: left; margin-bottom:20px">
+		<br>
+		<p><i>Contact Brooke Kemp with comments at <a href="mailto:bmkemp@bsu.edu">bmkemp@bsu.edu</a> or on Twitter <br><a href="https://twitter.com/brookemkemp">@brookemkemp. </a>Contact Ryan Shank with comments at <a href="mailto:rjshank@bsu.edu">rjshank@bsu.edu</a> or on Twitter <br><a href="https://twitter.com/RyanJShank">@RyanJShank.
+	</a></p></div><a href="http://www.ballstatedaily.com"></i>
+  </div><a href="http://www.ballstatedaily.com"></i>
+                                                       
+	<hr>
+	
+	<hr>
+
+<script>
+$(window).scroll(function(){
+    $(".topfade").css("opacity", 1 - $(window).scrollTop() / 500);
+  });
+
+$(function() {
+    $(window).scroll( function(){
+    
+       
+        $('.fadein').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 500;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+        }); 
+    
+    });
+});
+
+</script>
+
+  <script>
+      //Photo gallery buttons. Changes photo index on click//
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+  </script>
+</a></body>
+  
+  
+
+</body>
+
+</html>
