@@ -1,659 +1,727 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Winning the war - The Ball State Daily News</title>
-  
-  <link rel="icon" href="https://s3.amazonaws.com/snwceomedia/bsd/7cb9bb99-a960-49e0-81fe-de23c797a653.sized-1000x1000.png" type="image/png" sizes="16x16">
-  <link rel="icon" href="http://enterprise.ballstatedaily.com/livingform.html/favicon.ico?v=2" />
-  
-      <link rel="stylesheet" href="Winningthewar.css">
+    <meta charset="UTF-8">
+    <title>Winning the war - The Ball State Daily News</title>
 
-  
-</head>
+    <link rel="icon" href="https://s3.amazonaws.com/snwceomedia/bsd/7cb9bb99-a960-49e0-81fe-de23c797a653.sized-1000x1000.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="http://enterprise.ballstatedaily.com/livingform.html/favicon.ico?v=2" />
 
-<body>
+    <link rel="stylesheet" href="Winningthewar.css">
 
-  <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="<link href="https://fonts.googleapis.com/css?family="Lora|Roboto:400,400i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-  
-  
-  
-  <link rel="stylesheet" type="text/css" media="screen, projection, print" href="http://d1smvgov3wwgjy.cloudfront.net/20180323S1gDT1Kf9M/dist/css/master.css">
-    <link rel="stylesheet" type="text/css" media="print" href="http://d1smvgov3wwgjy.cloudfront.net/20180323S1gDT1Kf9M/dist/css/print.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="<link href=" https://fonts.googleapis.com/css?family="Lora|Roboto:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-  
+
     <script src="http://d1smvgov3wwgjy.cloudfront.net/20180323S1gDT1Kf9M/dist/js/master-min.js"></script>
 
-    <script src="http://vjs.zencdn.net/c/video.js"></script>
-	
-	  
-<script async="" src="https://www.google-analytics.com/analytics.js"></script> 
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36364013-3"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-36364013-3');
+
+    </script>
+
+
+
+
+    <!--CSS-->
+    <style>
+        .bodycopy {
+            font-family: 'Lora';
+            font-size: 18px;
+            color: #C2C2C2
+        }
+
+        figcaption {
+            font-family: 'Roboto', sans-serif;
+            text-decoration: italic;
+            font-size: 13px;
+            color: #7E7E7E;
+        }
+
+        .photocredit {
+            font-size: 13px;
+        }
+
+        .fadein {
+            opacity: 0;
+        }
+
+        .modal.large {
+            width: 80%;
+            /* respsonsive width */
+            margin-left: -40%;
+            /* width/2) */
+        }
+
+        .sidebar {
+            font-size: 30px;
+            font-weight: bold;
+            color: #cc0000;
+        }
+
+        @media screen and (min-width: 992px) {
+            .headline {
+                font-family: 'Roboto', serif;
+                font-weight: 700;
+                font-size: 120px;
+                letter-spacing: -2.5px;
+                color: #F0F0F0 !important;
+            }
+            .aside {
+                border-style: solid;
+                border-width: .5px;
+                border-color: #f1f1f1;
+                border-radius: 5px;
+                margin: 0px 10px 10px 10px;
+                padding: 10px;
+            }
+            .aside img {
+                width: 100%;
+            }
+            .photobanner {
+                display: none;
+            }
+            .mobilevideo {
+                display: none;
+            }
+            .creditsmobile {
+                display: none;
+            }
+            .subhead {
+                font-family: 'Roboto', serif;
+                font-size: 40px;
+                letter-spacing: -.5px;
+                color: #7e7e7e;
+                line-height: 45px;
+            }
+            .smallpic {
+                width: 600px;
+                margin-left: 20px;
+                float: center;
+            }
+            .graphic {
+                width: 600px;
+                margin: left;
+                float: right;
+            }
+          
+          g{
+    color: #EBEBEB;
+  }
+        }
+
+        @media screen and (max-width: 991px) {
+            .headline {
+                font-family: 'Roboto', serif;
+                font-size: 100px;
+                letter-spacing: -2.5px;
+            }
+            .subhead {
+                font-family: 'Roboto', serif;
+                font-size: 30px;
+                letter-spacing: -.5px;
+                color: #7e7e7e;
+                line-height: 30px;
+            }
+            .aside {
+                border-style: solid;
+                border-width: .5px;
+                border-color: #f1f1f1;
+                border-radius: 5px;
+                margin: 10px 10px 10px 10px;
+                padding: 10px;
+            }
+            .aside img {
+                width: 150px;
+            }
+            .imagebanner {
+                display: none;
+            }
+            .videoaside {
+                display: none;
+            }
+            .creditsdesktop {
+                display: none;
+            }
+            .smallpic {
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+          headcolor{
+    color:#F0F0F0
+  }
+        }
+
+        body {
+            background-color: #1C2026
+        }
+      
+      /* Add a black background color to the top navigation */
+.nav {
+    background-color: #15191C;
+    overflow: hidden;
+    z-index:99998;
+    
   
-<!-- Global site tag (gtag.js) - Google Analytics 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36364013-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-36364013-3');
-</script>-->
-	
-  
-  
-<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
-      <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-36364013-3', 'auto');
-      ga('send', 'pageview');
-    </script>-->
-	 
-<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-XXXXX-Y', 'auto');
-ga('send', 'pageview');
-</script>
-<!-- End Google Analytics -->
-	  
-  
-<style>
-video {
-	width: 100%;
+      position: sticky; /* Set the navbar to fixed position */
+    top: 0 ; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
-.bodycopy {
-	font-family: 'Lora';
-	font-size: 18px;
-  color: #C2C2C2
+
+/* Style the links inside the navigation bar */
+.nav a {
+    float: left;
+    display: block;
+    color: #C2C2C2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
-figcaption {
-	font-family: 'Roboto', sans-serif;
-	text-decoration: italic;
-	font-size: 13px;
-	color: #7E7E7E;
+
+/* Change the color of links on hover */
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
 }
-.photocredit {
-	font-size: 13px;
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #484848;
+    color: white;
 }
-.fadein {
-    opacity:0;
-}
-.modal.large {
-    width: 80%; /* respsonsive width */
-    margin-left:-40%; /* width/2) */ 
-}
-.sidebar {
-	font-size: 30px;
-	font-weight: bold;
-	color: #cc0000;
-}
-@media screen and (min-width: 992px) {
-	.headline {
-	font-family: 'Roboto', serif;
-    font-weight: 700;
-	font-size: 120px;
-	letter-spacing: -2.5px;
-}
-	.aside {
-	border-style: solid;
-	border-width: .5px;
-	border-color: #f1f1f1;
-	border-radius: 5px;
-	margin: 0px 10px 10px 10px;
-	padding: 10px;
-	}
-	.aside img {
-	width:100%;
-}
-	.photobanner {
-		display: none;
-	}
-.mobilevideo {
-	display: none;
-}
-.creditsmobile {
-	display: none;
-}
-.subhead {
-	font-family: 'Roboto', serif;
-	font-size: 40px;
-	letter-spacing: -.5px;
-	color: #7e7e7e;
-	line-height: 45px;
-}
-.smallpic {
-	width: 600px;
-  margin-left:20px;
-	float:center;
+
+/* Hide the link that should open and close the topnav on small screens */
+.nav .icon {
+    display: none;
 }
   
-  .graphic{
-    width:600px;
-    margin:left;
-    float:right;
+  
+  
+  
+  
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width:628px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
   }
 }
-@media screen and (max-width: 991px) {
-	.headline {
-	font-family: 'Roboto', serif;
-	font-size: 100px;
-	letter-spacing: -2.5px;
-}
-.subhead {
-	font-family: 'Roboto', serif;
-	font-size: 30px;
-	letter-spacing: -.5px;
-	color: #7e7e7e;
-	line-height: 30px;
-}
-.aside {
-	border-style: solid;
-	border-width: .5px;
-	border-color: #f1f1f1;
-	border-radius: 5px;
-	margin: 10px 10px 10px 10px;
-	padding: 10px;
-}
-.aside img {
-	width:150px;
-}
-.imagebanner {
-	display: none;
-}
-.videoaside {
-	display: none;
-}
-.creditsdesktop {
-	display: none;
-}
-.smallpic {
-	width: 100%;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-  
-  
-body{
-  background-color:#1C2026
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
-</style>
- <title>Winning the war - The Ball State Daily News</title>
+}
+      
+
+    </style>
+
+
+    <title>Winning the war - The Ball State Daily News</title>
 </head>
+
+
+
+
+
+
+
+
+
 <body>
-  <!-- new navbar html boy oh boy -->
- 
-  <div class="topnav" id="myTopnav">
-  <a href="http://www.ballstatedaily.com/" target="_blank">More From The DN</a>
-  <a href="#storyTarget">Story</a>
-  
-  <a href="#contactTarget">Contact</a>
-  <!-- Places logo on navbar -->
-  <div id= "logo">
-    <rmarg><img src= "https://s3.amazonaws.com/snwceomedia/bsd/c7696e4b-8f97-4164-aa24-fbda936286e1.sized-1000x1000.png" width="50" height="50" align= "right"></rmarg>
- </div>
- <!-- navbar button -->   
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-  
-<!-- fullscreen autoplay fading video -->
-    <img class="imagebanner topfade" src="https://s3.amazonaws.com/snwceomedia/bsd/92c2228b-f6f1-44df-8b9c-f3f94af6dbb7.sized-1000x1000.jpg" width= 1000px style="width: 100%; opacity: 1;">
-       
- 
-  <!-- banner image for mobile or if video doesn't load for whatever reason -->
-    <img class="photobanner topfade" src="https://s3.amazonaws.com/snwceomedia/bsd/92c2228b-f6f1-44df-8b9c-f3f94af6dbb7.sized-1000x1000.jpg" width= 700px  style="width: 100%; opacity: 1;">
 
- 
-  
-  
-<div class="container" >
-	<div class="row">
-		<div class="col-sm-12">
-      <!--replace link with DOC-->
-      <span class="headline"><headcolor>'Winning the war'</headcolor></span>
-      <br>
-      
-			<span class="subhead">Ball State professors share their stories of survival</span>
-		</div>
-	</div>
-	<hr>
-  <!-- top credit section under subhead -->
-	<div class="col-sm-9 bodycopy">
-		<p class="creditsdesktop" <p class="creditsdesktop" style="color:#7e7e7e"><b>Brynn Mechem and Mary Freda</b><span class="photocredit"> // Story</span>&emsp;
-      <b>Kaiti Sullivan, Madeline Grosh and Rachel Ellis</b><span class="photocredit"> // Photography</span>&emsp;
-    <b>Michael Himes and Emily Wright</b><span class="photocredit"> // Development and Design</span>&emsp;
-  </p>
-  
-  
-  <p class="creditsmobile" style="color:#7e7e7e"><b>Brynn Mechem and Mary Freda</b><span class="photocredit"> // Story</span>&emsp;
-      <b>Kaiti Sullivan, Madeline Grosh and Rachel Ellis</b><span class="photocredit"> // Photography</span>&emsp;
-    <b>Michael Himes and Emily Wright</b><span class="photocredit"> // Design and Development</span>&emsp;
-  </p>
- 
-  
-  
- <!-- begin body text --> 
+
+
+    <ul class="nav" id= "myTopnav">
+        <li class="nav-item">
+            <a class="nav-link " href="http://www.ballstatedaily.com/" target= "_blank">More From The DN</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#storyTarget">Story</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contactTarget">Contact</a>
+        </li>
+        <li class="nav-item">
+            <rmarg><img src= "https://s3.amazonaws.com/snwceomedia/bsd/c7696e4b-8f97-4164-aa24-fbda936286e1.sized-1000x1000.png" width="50" height="50" align= "right"></rmarg>
+        </li>
+      <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
+    </ul>
+
+
+
+
+    <!-- fullscreen autoplay fading video -->
+    <img class="imagebanner topfade" src="https://s3.amazonaws.com/snwceomedia/bsd/92c2228b-f6f1-44df-8b9c-f3f94af6dbb7.sized-1000x1000.jpg" width=1 000px style="width: 100%; opacity: 1;">
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" >
+                <!--replace link with DOC-->
+                <span class="headline"><headcolor>'Winning the war'</headcolor></span>
+                <br>
+
+                <span class="subhead">Ball State professors share their stories of survival</span>
+            </div>
+        </div>
+        <hr>
+        <!-- top credit section under subhead -->
+        <div class="col-sm-9 bodycopy">
+            <p class="creditsdesktop" <p class="creditsdesktop" style="color:#7e7e7e"><b>Brynn Mechem and Mary Freda</b><span class="photocredit"> // Story</span>&emsp;
+                <b>Kaiti Sullivan, Madeline Grosh and Rachel Ellis</b><span class="photocredit"> // Photography</span>&emsp;
+                <b>Michael Himes and Emily Wright</b><span class="photocredit"> // Development and Design</span>&emsp;
+            </p>
+
+
+            <p class="creditsmobile" style="color:#7e7e7e"><b>Brynn Mechem and Mary Freda</b><span class="photocredit"> // Story</span>&emsp;
+                <b>Kaiti Sullivan, Madeline Grosh and Rachel Ellis</b><span class="photocredit"> // Photography</span>&emsp;
+                <b>Michael Himes and Emily Wright</b><span class="photocredit"> // Design and Development</span>&emsp;
+            </p>
 <a name="storyTarget"></a>
-		<hr><p style= font-size:22px><i>In 2018 alone, 610,000 Americans will die from cancer. For Cancer Control Month, The Daily News shadowed and sat down with Ball State professors to reflect on their past and continuing journeys with cancer.</i>  </p>
-		<p>In the brisk October morning, Stan Sollars quickly walked through the automatic sliding glass doors into the almost too-bright lobby. He took a seat in the pale blue and green chairs that are meant to be comforting, but the lumps didn’t help overcome the anxiety that comes with waiting. He put his arm around his nervous wife. “It’s going to be fine,” he said. “We’ve done this before.”
-
-</p>
-		<p>He walked through the labyrinth that was Indiana University Health University Hospital, never even looking where he’s going. He clutched the “football,” the giant accordion-style folder that houses all of his medical information to his side. He smiled and gave an animated hello to the receptionist, greeting her like he would an old friend. She smiled, the blue light from the computer screen reflecting in her glasses.
-</p>
-  <p> She knew him. </p>
-  <p>They all knew him. </p>
 
 
-		<p>They had seen him more than 40 times in the last three years.
-</p>
-  <br>
-  
-  	<figure class="smallpic" >
-	<img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/af8732a5-278d-40c3-b8e4-d45694188795.sized-1000x1000.jpg" align="right">
-	<figcaption>Lecturer of telecommuications Stan Sollars has a checkup Oct. 11, 2017, with Dr. Shadia Jalal. Sollars was diagnosed with esophageal cancer in 2014. 
-    <br><b><span class="photocredit">Kaiti Sullivan, DN</span></b>
-	</figcaption>
-	</figure>
-  <br>
-  
-  
-  
-  
-  
-  
-		<p>He took a seat in the familiar chairs. He clutched a large water bottle that he purchased in anticipation for the day’s events. He explained what his body was about to endure. 
-</p>
-  
-  
-  
-  
-		<p>“I have to drink a liter of water so that I can flush out all of the radioactive stuff as quickly as possible,” Sollars said. </p>
-		<p>A liter may seem like a lot, but to Sollars, a couple extra trips to the bathroom is a small price to pay for his life. The radiologist called him to the back. He walked past a patient left in the hallway, too weak to lift his head off the pillow. In a cold room, he showed off the machine that would soon send an army of X-ray waves and radiation into his body, scanning for any signs of a foreign object. Sollars lay still, the machine whirring around him, waiting for any signal of something that could again consume his life.  </p>
-		<p>In the reception room, his wife fought back the tears that were perched just behind her lids, threatening to tumble over the edge. </p>
-		<p>“There's always a fear that it will come back,” Allison Pareis, Sollars’ wife, said. “That's why I always get really antsy on scan days. I mean, he's fine and I don't have any reason to really think that there's a problem, but it's a human thing just to have that little thing that says, ‘What if, what if, what if.’”   </p>
-	</div>
-	<div class="col-sm-9 bodycopy">
-    <p>Sollars, a Ball State lecturer of telecommunications, isn’t alone in his fight. He is just one of the 1.8 million U.S. citizens who get a cancer diagnosis every year, according to the National Cancer Institute. Of those, 67 percent will still be alive five years down the road, up 17 percent from 1974.  </p>
-		<p></p>
-		
+            <!-- begin body text -->
+            
+            <hr>
+            <p style=f ont-size:22px><i>In 2018 alone, 610,000 Americans will die from cancer. For Cancer Control Month, The Daily News shadowed and sat down with Ball State professors to reflect on their past and continuing journeys with cancer.</i> </p>
+            <p>In the brisk October morning, Stan Sollars quickly walked through the automatic sliding glass doors into the almost too-bright lobby. He took a seat in the pale blue and green chairs that are meant to be comforting, but the lumps didn’t help overcome the anxiety that comes with waiting. He put his arm around his nervous wife. “It’s going to be fine,” he said. “We’ve done this before.”
 
-		<p>Of the estimated 1.8 million, nearly 610,000 will die. 
-</p>
-<p>In the waiting room, Pareis nervously thumbed through the pages of a book that she never got the chance to read. Her right knee was bouncing up and down as if she were calming an imaginary child, and even as she talked, she couldn’t peel her eyes from the door. When he finally came back, she went through her routine checklist. </p>
- 
-  <figure class="graphic" >
-	<back><img class="graphic" align="right" style= "float:right;" src="https://s3.amazonaws.com/snwceomedia/bsd/b3c9297b-37ae-4101-b975-4162d8b0af6b.sized-1000x1000.png" align="right"></back>
-	</figure>
- 
-  
-    <p>“How did it go? How do you feel? Did you finish your water? We need to go upstairs now.” 
-</p>
-    <p>As they made their way back through the never-ending maze, the couple explained life during treatment. Sollars initially had surgery to fix an issue with his esophagus, but during the surgery, doctors found a tumor. When Pareis found out the surgery meant something more, she didn’t handle it very well.</p>
-    <p>“That first day, he was so heavily drugged, we were all sitting in the room waiting for the ER doctor to come and explain to Stan because nobody had told Stan yet. I was just trying to hold myself together so I couldn't say it,” Pareis said.  </p>
-    <p>“So they have the ER doc explain it to him, and at that point my parents and I are just like stunned. I’m really just upset, like, I had been screaming and everything. Stan was like, ‘It'll be OK. It'll be totally OK. I'll be fine, I already know that I'll be fine.’” 
-</p>
-    <p>It is this mindset Sollars would later say got him through. 
-</p> 
-    <p>“You have to put on horse blinkers, like you would put on a race horse, because if you’re distracted one way or the other — ‘What about Fred’s cancer,’ ‘What about Jane’s cancer?’ — that spreads,” Sollars said. “I had to focus on my cancer and survival.” </p> 
-    
-    
-	</div>
-	</div>
-</div>
-<br>
+            </p>
+            <p>He walked through the labyrinth that was Indiana University Health University Hospital, never even looking where he’s going. He clutched the “football,” the giant accordion-style folder that houses all of his medical information to his side. He smiled and gave an animated hello to the receptionist, greeting her like he would an old friend. She smiled, the blue light from the computer screen reflecting in her glasses.
+            </p>
+            <p> She knew him. </p>
+            <p>They all knew him. </p>
+
+
+            <p>They had seen him more than 40 times in the last three years.
+            </p>
+            <br>
+
+            <figure class="smallpic">
+                <img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/af8732a5-278d-40c3-b8e4-d45694188795.sized-1000x1000.jpg" align="right">
+                <figcaption>Lecturer of telecommuications Stan Sollars has a checkup Oct. 11, 2017, with Dr. Shadia Jalal. Sollars was diagnosed with esophageal cancer in 2014.
+                    <br><b><span class="photocredit">Kaiti Sullivan, DN</span></b>
+                </figcaption>
+            </figure>
+            <br>
 
 
 
 
-<br> </br>
 
-	<div class="container" "=">
-	<div class="row">
-    
-	<div class="col-sm-9 bodycopy" style="margin-top:10px">
-    <p><span style="font-family: 'Roboto'; font-size: 22px;"><b>A white and teal wedding</b></span></p>
-		<p>It was on her 30th birthday that Kendra Zenisek, lecturer of kinesiology and coordinator of physical fitness, got preoperative testing to see if she had cancer. She found out two weeks later she did.</p>
-		<p>“Thirty wasn't a great year,” Zenisek said. “I didn't really enjoy 30. Turning 30, most people are like, ‘Oh, it's just 30, it sucks,’ and I was like, ‘No, 30 is different for me.’”</p>
-		<p>For the newly-engaged woman, the diagnosis was worse than she could’ve imagined. She had adenocarcinoma, a more aggressive type of cervical cancer. </p>
-		<p>“According to The National Cancer Institute, adenocarcinoma is when cancerous cells skip around to various parts of the body. This type of cancer is much harder to treat than squamous cell carcinoma, which tends to be much more isolated.”</p>
-		<p>“The recommended path of treatment at that point in time coming from the doctor that I had was complete hysterectomy, which means ovaries, uterus — everything,” Zenisek said. “At that age, I was like, ‘What if I want kids or what if I want a family?’”</p>
-    
+
+            <p>He took a seat in the familiar chairs. He clutched a large water bottle that he purchased in anticipation for the day’s events. He explained what his body was about to endure.
+            </p>
+
+
+
+
+            <p>“I have to drink a liter of water so that I can flush out all of the radioactive stuff as quickly as possible,” Sollars said. </p>
+            <p>A liter may seem like a lot, but to Sollars, a couple extra trips to the bathroom is a small price to pay for his life. The radiologist called him to the back. He walked past a patient left in the hallway, too weak to lift his head off the pillow. In a cold room, he showed off the machine that would soon send an army of X-ray waves and radiation into his body, scanning for any signs of a foreign object. Sollars lay still, the machine whirring around him, waiting for any signal of something that could again consume his life. </p>
+            <p>In the reception room, his wife fought back the tears that were perched just behind her lids, threatening to tumble over the edge. </p>
+            <p>“There's always a fear that it will come back,” Allison Pareis, Sollars’ wife, said. “That's why I always get really antsy on scan days. I mean, he's fine and I don't have any reason to really think that there's a problem, but it's a human thing just to have that little thing that says, ‘What if, what if, what if.’” </p>
+        </div>
+        <div class="col-sm-9 bodycopy">
+            <p>Sollars, a Ball State lecturer of telecommunications, isn’t alone in his fight. He is just one of the 1.8 million U.S. citizens who get a cancer diagnosis every year, according to the National Cancer Institute. Of those, 67 percent will still be alive five years down the road, up 17 percent from 1974. </p>
+            <p></p>
+
+
+            <p>Of the estimated 1.8 million, nearly 610,000 will die.
+            </p>
+            <p>In the waiting room, Pareis nervously thumbed through the pages of a book that she never got the chance to read. Her right knee was bouncing up and down as if she were calming an imaginary child, and even as she talked, she couldn’t peel her eyes from the door. When he finally came back, she went through her routine checklist. </p>
+
+            <figure class="graphic">
+                <back><img class="graphic" align="right" style="float:right;" src="https://s3.amazonaws.com/snwceomedia/bsd/b3c9297b-37ae-4101-b975-4162d8b0af6b.sized-1000x1000.png" align="right"></back>
+            </figure>
+
+
+            <p>“How did it go? How do you feel? Did you finish your water? We need to go upstairs now.”
+            </p>
+            <p>As they made their way back through the never-ending maze, the couple explained life during treatment. Sollars initially had surgery to fix an issue with his esophagus, but during the surgery, doctors found a tumor. When Pareis found out the surgery meant something more, she didn’t handle it very well.</p>
+            <p>“That first day, he was so heavily drugged, we were all sitting in the room waiting for the ER doctor to come and explain to Stan because nobody had told Stan yet. I was just trying to hold myself together so I couldn't say it,” Pareis said. </p>
+            <p>“So they have the ER doc explain it to him, and at that point my parents and I are just like stunned. I’m really just upset, like, I had been screaming and everything. Stan was like, ‘It'll be OK. It'll be totally OK. I'll be fine, I already know that I'll be fine.’”
+            </p>
+            <p>It is this mindset Sollars would later say got him through.
+            </p>
+            <p>“You have to put on horse blinkers, like you would put on a race horse, because if you’re distracted one way or the other — ‘What about Fred’s cancer,’ ‘What about Jane’s cancer?’ — that spreads,” Sollars said. “I had to focus on my cancer and survival.” </p>
+
+
+        </div>
+    </div>
+    </div>
     <br>
-    	<figure class="smallpic" >
-	<img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/cc8d2a47-65db-43a4-9bde-73148022c1d6.sized-1000x1000.jpg" align="right">
-	<figcaption> Lecturer of kinesiology Kendra Zenisek found out she had cancer shortly after her 30th birthday. Zenisek had her final surgery in October 2009.
-    <br><b><span class="photocredit">Kendra Zenisek, Photo Provided</span></b>
-	</figcaption>
-	</figure>
-    <br>
-    
-		<p>After being recommended to doctors in Indiana and Georgia, Zenisek found a doctor at Memorial Sloan Kettering Cancer Center in New York City that could perform a surgery that would still allow Zenisek to have a child through a C-section delivery. However, during surgery, doctors found the lesions had spread further than they first thought and Zenisek had a complete hysterectomy.  </p>
-		<p>The complications didn’t stop there, though. A few days after the initial surgery, Zenisek developed a bowel restriction and underwent another surgery, keeping her in the hospital for another three weeks.</p>
-	
-</p>
-		<p>“The thoughts kind of at the time were, ‘What did I do wrong,’” Zenisek said. “I did everything that I was supposed to. I worked out regularly, I ate healthily, I tried to take really good care of myself — I did everything right.  </p>
-		<p>“You start to think, ‘I'm a good person and I do everything I'm supposed to do,’ and then all the sudden you get hit with a diagnosis.”
-
-</p>
-    <figure class="graphic" >
-	<img class="graphic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/ede11700-59c4-4e5d-b0f7-b9035bef8fa9.sized-1000x1000.png">
-	</figure>
-    
-   
-    
-		<p>“After returning to Muncie, Zenisek’s doctor recommended she undergo six to eight weeks of chemotherapy, including daily radiation. 
-      
-</p>
-		<p>“During that second week of radiation, I had massive complications,” Zenisek said. “I couldn't keep anything down. I was really dehydrated. I ended up back in the hospital and what they determined at that point was that the radiation had burned my intestines to my abdominal wall.”  
-</p>
-		<p>“So, Zenisek went through another surgery and quit chemotherapy and radiation. 
-</p>
-		<p>“I had to eat through a tube in my arm, which is not a diet plan that I recommend,” she said. “I lost about 20 pounds during the whole process, but fortunately at that point, I was still in the process of getting ready for a wedding, and I was like, ‘I don't want to lose my hair,’ and I was fortunate enough that I didn't.”
-  
-</p>
-		<p>Zenisek’s final surgery happened in October 2009 and she and her fiance were married the following May. Zenisak didn’t have to move her wedding day and even got inspiration for her journey — she added teal, the color for cervical cancer, to her wedding dress.
-</p>
-		<p>And while it has been nine years since she was diagnosed, Zenisek said there is still a fear that the cancer may come back.  
-</p>
-		<p>“You've been diagnosed once, you've gone through the process and you know what it feels like and you know how hard it is not only on you, but on your support system because you see it in their face,” Zenisek said. “You know the challenges and so every time you go back for that test, you question, ‘Am I that strong enough to do it again,’ and ‘Can I put my family and my loved ones and my support system through that again?’’
-
-</p>
-  
-  </div>
-	</div>
-</div>  
 
 
-<br> </br>
 
 
-	</div>
-</div>  
+    <br> </br>
+
+    <div class="container" "=">
+        <div class="row">
+
+            <div class="col-sm-9 bodycopy" style="margin-top:10px">
+                <p><span style="font-family: 'Roboto'; font-size: 22px;"><b>A white and teal wedding</b></span></p>
+                <p>It was on her 30th birthday that Kendra Zenisek, lecturer of kinesiology and coordinator of physical fitness, got preoperative testing to see if she had cancer. She found out two weeks later she did.</p>
+                <p>“Thirty wasn't a great year,” Zenisek said. “I didn't really enjoy 30. Turning 30, most people are like, ‘Oh, it's just 30, it sucks,’ and I was like, ‘No, 30 is different for me.’”</p>
+                <p>For the newly-engaged woman, the diagnosis was worse than she could’ve imagined. She had adenocarcinoma, a more aggressive type of cervical cancer. </p>
+                <p>“According to The National Cancer Institute, adenocarcinoma is when cancerous cells skip around to various parts of the body. This type of cancer is much harder to treat than squamous cell carcinoma, which tends to be much more isolated.”</p>
+                <p>“The recommended path of treatment at that point in time coming from the doctor that I had was complete hysterectomy, which means ovaries, uterus — everything,” Zenisek said. “At that age, I was like, ‘What if I want kids or what if I want a family?’”</p>
+
+                <br>
+                <figure class="smallpic">
+                    <img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/cc8d2a47-65db-43a4-9bde-73148022c1d6.sized-1000x1000.jpg" align="right">
+                    <figcaption> Lecturer of kinesiology Kendra Zenisek found out she had cancer shortly after her 30th birthday. Zenisek had her final surgery in October 2009.
+                        <br><b><span class="photocredit">Kendra Zenisek, Photo Provided</span></b>
+                    </figcaption>
+                </figure>
+                <br>
+
+                <p>After being recommended to doctors in Indiana and Georgia, Zenisek found a doctor at Memorial Sloan Kettering Cancer Center in New York City that could perform a surgery that would still allow Zenisek to have a child through a C-section delivery. However, during surgery, doctors found the lesions had spread further than they first thought and Zenisek had a complete hysterectomy. </p>
+                <p>The complications didn’t stop there, though. A few days after the initial surgery, Zenisek developed a bowel restriction and underwent another surgery, keeping her in the hospital for another three weeks.</p>
+
+                </p>
+                <p>“The thoughts kind of at the time were, ‘What did I do wrong,’” Zenisek said. “I did everything that I was supposed to. I worked out regularly, I ate healthily, I tried to take really good care of myself — I did everything right. </p>
+                <p>“You start to think, ‘I'm a good person and I do everything I'm supposed to do,’ and then all the sudden you get hit with a diagnosis.”
+
+                </p>
+                <figure class="graphic">
+                    <img class="graphic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/ede11700-59c4-4e5d-b0f7-b9035bef8fa9.sized-1000x1000.png">
+                </figure>
 
 
-    
-	<div class="container" "=">
-	<div class="row">
-	<div class="col-sm-9 bodycopy" style="margin-bottom: 5px">
-    
-    <br>
-  <p><span style="font-family: 'Roboto'; font-size: 22px;"><b>A routine check up</b></span></p>
-    
 
-    
-    
-    
-   <p>It was 1995 and Peggy Fisher was 36 years old. It was then, she discovered her mother had breast cancer. Nine months later, her mother died. 
-</p>
-   <p>After that, she and her three sisters made it a habit to get routine mammograms. But in 2001, Fisher’s routine turned into a months-long relationship with breast cancer.
-</p>
-   <p>“I kept doing everything that I had done before,” Fisher said. 
-</p>
-    <br>
-    <figure class="smallpic" >
-	<img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/429edf7f-61c4-43cf-9cc9-00261487238f.sized-1000x1000.jpg" align="right">
-	<figcaption>Assistant professor of communication studies Peggy Fisher battled breast cancer in 2001 and 2015. Fisher had a simple mastectomy in 2015.
-    <br><b><span class="photocredit">Madeline Grosh, DN</span></b>
-	</figcaption>
-	</figure>
-    <br>
-   <p>She went through chemo, had three lumpectomies — a surgery where only the tumor and some surrounding tissue are removed — and the cancer was gone — or so she thought. 
-</p>
-   <p>Fourteen years later, Fisher found herself in the doctor’s office for another routine mammogram. She got the call 10 minutes before her next class that day. 
-</p>
-    
-   <p>“I got the phone call on my phone and I recognized the number and I went over to Beth Messner’s office and put it on speakerphone,” Fisher said. “You just go into fight mode. It’s like, ‘OK, what do I do next? Let’s get this going so I can get it over with.’”
-</p>
-   <p>The cancer was back in the same breast. This time it was more aggressive and a completely different chemical makeup. 
-</p>
-   <p>She had a simple mastectomy — the removal of an entire breast, including the nipple, the areola and skin according to American Cancer Society — and the doctors brought out the “big guns” with chemo again, and this time it was harder, she said. 
-</p>
-   <p>“You lose a boob and what does that do to you? And I never really thought that it mattered. I was like ‘OK, well no big deal,’” Fisher said. “Physically it didn’t really matter to me that much.” 
-</p>
-   <p>During her second round with cancer, Fisher was teaching a fall 2015 immersive learning course in collaboration with Little Red Door — a local nonprofit that provides cancer patients with resources.
-</p>
-   <p>Fisher recalled leaving class to throw up and sometimes not coming in at all because she physically couldn’t. So, she would Skype in and her students continued to show up. 
-</p>
-   <p>“Those students got more than they bargained for that semester. They shaved my head, they came to chemo with me. They came to doctor's appointments with me. They helped me pick out a fake boob,” Fisher said.</p>
-    
-    <figure class="graphic" >
-	<img class="graphic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/4f4e6db2-5741-4985-9f11-84506da6f3cf.sized-1000x1000.png" align="right">
-	
-	</figure>
-    
-   <p>Despite the support from her students, there were times she felt others thought she invited the disease into her body. “It’s your diet,” they would say. 
-</p>
-   <p>“That frustrated me that people thought I was doing something lifestyle-wise to cause my cancer,” Fisher said. 
-</p>
-    <p>In spring 2016, Fisher started exercising with her son, Adam, who was training to serve in the military. </p>
-    <p>“I was trying to do a lap around my neighborhood to get my blood flowing and I was trying to detox and get all the crap out of my system and he just came up real slow behind me and said, ‘Mom, let’s just run down to the end of the street here, you can do it, we’ll just go slow,’” Fisher said. “So I did it, and the next time I did a little more and next time I did a little more.” </p>
-    <p>Adam, would complete training exercises on the patio, like push ups, and she would join him, but he never let her do too much, she said.</p>
-    <p>Now, Fisher said she still deals with, and will forever, some side effects like pain in her feet, legs and hips and “chemo brain,” which affects a person’s ability to remember certain things, complete tasks or learn something new, according to American Cancer Society.</p>
-    <p>The hardest part for Fisher, though, was and still is the emotional recovery. </p>
-    <p>In fall 2016, Fisher shared a PowerPoint presentation with her students, which showed a photo of her after with a newly-shaved head in the wig room at Little Red Door — she had to send her students home that day.</p>
-    <p>“I've looked at these slides 100 times. It was no big deal, but as soon as it popped up on a big screen and I saw [it] larger than life, I had to stop class. I just stood there and bawled,” she said.</p>
-    <p></p>
-  
-	</div>
-	</div>
-	</div>
+                <p>“After returning to Muncie, Zenisek’s doctor recommended she undergo six to eight weeks of chemotherapy, including daily radiation.
 
-<br> </br>
-	<div class="container">
-	
-	<div class="col-sm-9 bodycopy" style="padding-top:15px">
-<p><span style="font-family: 'Roboto'; font-size: 22px;"><b>One in a thousand</b></span></p>
+                </p>
+                <p>“During that second week of radiation, I had massive complications,” Zenisek said. “I couldn't keep anything down. I was really dehydrated. I ended up back in the hospital and what they determined at that point was that the radiation had burned my intestines to my abdominal wall.”
+                </p>
+                <p>“So, Zenisek went through another surgery and quit chemotherapy and radiation.
+                </p>
+                <p>“I had to eat through a tube in my arm, which is not a diet plan that I recommend,” she said. “I lost about 20 pounds during the whole process, but fortunately at that point, I was still in the process of getting ready for a wedding, and I was like, ‘I don't want to lose my hair,’ and I was fortunate enough that I didn't.”
 
-    <p>“I was the first person who noticed a lump,” said Dave Sumner, professor emeritus of journalism. 
-</p>   
-    <p>That lump was found after the then 64-year-old came home from a June 2010 run. Sumner waited two weeks before seeing a doctor. After a needle biopsy, his suspicion was confirmed: breast cancer. 
-</p>   
-    <p>It was a Thursday. By Monday, Sumner had an appointment for a mastectomy. 
-</p>   
-    <br>
-    <figure class="smallpic" >
-	<img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/a9243b05-f967-47d2-afde-59e9460d665d.sized-1000x1000.jpg" align="right">
-	<figcaption>Professor emeritus of journalism Dave Sumner was diagnosed with breast cancer in 2010. Sumner found the lump after returning from a run.
-    <br><b><span class="photocredit">Rachel Ellis, DN</span></b>
-	</figcaption>
-	</figure>
-    <br>
-    
-    <p>According to the American Cancer Society, 1 in 1,000 men will be diagnosed with breast cancer is his lifetime. In 2018, American Cancer Society estimates 2,550 men will be diagnosed with breast cancer. 
-</p>   
-    <p>Of those, 480 will die.  </p>   
-    <p>“I think the experience of cancer is definitely not a death sentence … It also offers an opportunity to have a deeper and a richer life than you've ever had before,” he said. “I don't want to call it a blessing, but you can use that experience of suffering to make yourself a better person and a more caring person.” 
-</p>   
-    <p>When he was diagnosed, Sumner was a magazine-track professor. He taught students how to improve their writing and the technicalities of publishing, but he also gave students an up-close-and-personal look into male breast cancer.
-</p>   
-    
-    <figure class="graphic" >
-	<back><img class="graphic" align="right" style= "float:right;" src="https://s3.amazonaws.com/snwceomedia/bsd/b3c9297b-37ae-4101-b975-4162d8b0af6b.sized-1000x1000.png" align="right"></back>
-	</figure>
-    
-    <p>Every Wednesday during the fall 2010 semester, Sumner, who never missed a day of class, would go to his 5-hour chemotherapy appointment in the morning and teach a class in the afternoon — through the chemo, hair loss and diet changes.  
-</p>   
-    <p>“I just wanted people to continue to relate to me like they always had,” Sumner said. “I didn't want people [to] start seeing me as a victim or starting asking a lot of questions about my treatment, so I just continued acting like I always had.”  
-</p>  
-    <p>Instead of taking the diagnosis as a death sentence, Sumner changed his diet and continued running. He cut out red meat, dairy and took daily supplements to be an active part of his cure.</p>
-    <p>Since 2011, Sumner, now in his 70s, has committed to running a half-marathon every year including the Kentucky Derby Festival miniMarathon and the Indianapolis 500 Festival Mini-Marathon — a tradition he started nine days after he finished radiation therapy.</p>
-    <p>But an active part of his cure wasn’t just about physical well-being, Sumner continued to develop his Christian faith. A woman in her 40s from Sumner’s church was diagnosed around the same time he was. They shared stories and struggles, but she died in 2015, giving Sumner survivor’s guilt, the guilt one feels when they survive something another dies from, according to Memorial Sloan Kettering Cancer Center.</p>
-    <p>“You know, why, why me, God?”</p>
-    <p>“I feel fortunate that God allowed me to continue to live and I felt like, ‘Well, he must have more for me to do,’ but I'm just so sad that not only her, but there was another woman in our church who died just from breast cancer just a year before that,” Sumner said.</p>
-    <p>In the last seven years, Sumner said three women from his church have died from breast cancer.</p>
-    <p>“Sometimes I'm not sure I was the one who deserved [life],” Sumner said.</p>
-    
-    	<br>
-    
-    <p><span style="font-family: 'Roboto'; font-size: 22px;"><b>Winning the war</b></span></p>
-    <p>In another waiting room, the couple is much more relaxed. They joke and tell stories about their dogs. Various people give side-eyed glances as they laugh, something Pareis said was not uncommon for them. On chemo days, Pareis said she, along with family and friends, would play games. 
-</p>   
-    <p>“We were always up there joking around and having fun and some people are like, ‘It's chemo, why are you laughing about chemo day?’ [But] why not,” Pareis said. “You've got to have fun to get through craziness like that, so why sit and be depressed about it because it's dark enough as it is.” 
-</p>   
-    <p>Despite 28 days of back and forth trips to the hospital, Sollars only missed a couple days as an anchor for Indiana Public Radio and physical class, but on those days, he had digital lessons for his students.
-</p> 
-    <br>
-    <figure class="smallpic" >
-	<img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/5e4c9ce7-59d8-4246-aa79-3f6ec3b4b141.sized-1000x1000.jpg" align="right">
-	<figcaption>Stan Sollars and his wife Allison Pareis receive good news from Dr. Shadia Jalal. Sollars was diagnosed with esophageal cancer but is now cancer-free. 
-    <br><b><span class="photocredit">Kaiti Sullivan, DN</span></b>
-	</figcaption>
-	</figure>
-    <br>
-    
-    <p>“We basically told him you have to stay home. If we were to have given him a choice, he would have been there,” Pareis said. “Right before chemo, we video recorded him teaching his students by himself in the studio. He was just like, ‘They won't miss anything.’”
-</p>   
-    <p>The couple sits in an examination room, the doctor checking his vitals. He shivers as she presses a cold stethoscope to his chest. They hold their breath as the doctor tells them the news — he is clear, a diagnosis that still makes the couple wary. 
-</p>   
-    <p>“After I got the all-clear, I said, ‘Now what do we do?’ From the time of the diagnosis up through surgery to post-op, we had definite steps,” Sollars said. “I don’t know what it feels like to be in the armed services, but I can imagine that’s what a soldier feels after they get off the battlefield.
-</p>   
-    <p>“I won the battle, but I had to figure out a way to win the war.”</p>
-    <p>They leave the examination room triumphant. Once more, they stroll through the network of hallways, saying goodbye to the receptionist, back through the sliding glass doors and into the adjacent parking garage.</p>
-    <p>His wife points out the spot where Sollars passed out after a nasty round of chemo. It is a reminder of a scarier time, a landmark of a past battle. The couple got into their car. He pulled out of the garage and onto University Boulevard. Their biggest worry was what they were going to eat for dinner.</p>
-    <p>And for today, that was enough.</p>
-<br> </br>
+                </p>
+                <p>Zenisek’s final surgery happened in October 2009 and she and her fiance were married the following May. Zenisak didn’t have to move her wedding day and even got inspiration for her journey — she added teal, the color for cervical cancer, to her wedding dress.
+                </p>
+                <p>And while it has been nine years since she was diagnosed, Zenisek said there is still a fear that the cancer may come back.
+                </p>
+                <p>“You've been diagnosed once, you've gone through the process and you know what it feels like and you know how hard it is not only on you, but on your support system because you see it in their face,” Zenisek said. “You know the challenges and so every time you go back for that test, you question, ‘Am I that strong enough to do it again,’ and ‘Can I put my family and my loved ones and my support system through that again?’’
 
-	</div>
-  
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <br> </br>
+
+
+    </div>
+    </div>
+
+
+
+    <div class="container" "=">
+        <div class="row">
+            <div class="col-sm-9 bodycopy" style="margin-bottom: 5px">
+
+                <br>
+                <p><span style="font-family: 'Roboto'; font-size: 22px;"><b>A routine check up</b></span></p>
 
 
 
 
 
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+                <p>It was 1995 and Peggy Fisher was 36 years old. It was then, she discovered her mother had breast cancer. Nine months later, her mother died.
+                </p>
+                <p>After that, she and her three sisters made it a habit to get routine mammograms. But in 2001, Fisher’s routine turned into a months-long relationship with breast cancer.
+                </p>
+                <p>“I kept doing everything that I had done before,” Fisher said.
+                </p>
+                <br>
+                <figure class="smallpic">
+                    <img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/429edf7f-61c4-43cf-9cc9-00261487238f.sized-1000x1000.jpg" align="right">
+                    <figcaption>Assistant professor of communication studies Peggy Fisher battled breast cancer in 2001 and 2015. Fisher had a simple mastectomy in 2015.
+                        <br><b><span class="photocredit">Madeline Grosh, DN</span></b>
+                    </figcaption>
+                </figure>
+                <br>
+                <p>She went through chemo, had three lumpectomies — a surgery where only the tumor and some surrounding tissue are removed — and the cancer was gone — or so she thought.
+                </p>
+                <p>Fourteen years later, Fisher found herself in the doctor’s office for another routine mammogram. She got the call 10 minutes before her next class that day.
+                </p>
+
+                <p>“I got the phone call on my phone and I recognized the number and I went over to Beth Messner’s office and put it on speakerphone,” Fisher said. “You just go into fight mode. It’s like, ‘OK, what do I do next? Let’s get this going so I can get it over with.’”
+                </p>
+                <p>The cancer was back in the same breast. This time it was more aggressive and a completely different chemical makeup.
+                </p>
+                <p>She had a simple mastectomy — the removal of an entire breast, including the nipple, the areola and skin according to American Cancer Society — and the doctors brought out the “big guns” with chemo again, and this time it was harder, she said.
+                </p>
+                <p>“You lose a boob and what does that do to you? And I never really thought that it mattered. I was like ‘OK, well no big deal,’” Fisher said. “Physically it didn’t really matter to me that much.”
+                </p>
+                <p>During her second round with cancer, Fisher was teaching a fall 2015 immersive learning course in collaboration with Little Red Door — a local nonprofit that provides cancer patients with resources.
+                </p>
+                <p>Fisher recalled leaving class to throw up and sometimes not coming in at all because she physically couldn’t. So, she would Skype in and her students continued to show up.
+                </p>
+                <p>“Those students got more than they bargained for that semester. They shaved my head, they came to chemo with me. They came to doctor's appointments with me. They helped me pick out a fake boob,” Fisher said.</p>
+
+                <figure class="graphic">
+                    <img class="graphic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/4f4e6db2-5741-4985-9f11-84506da6f3cf.sized-1000x1000.png" align="right">
+
+                </figure>
+
+                <p>Despite the support from her students, there were times she felt others thought she invited the disease into her body. “It’s your diet,” they would say.
+                </p>
+                <p>“That frustrated me that people thought I was doing something lifestyle-wise to cause my cancer,” Fisher said.
+                </p>
+                <p>In spring 2016, Fisher started exercising with her son, Adam, who was training to serve in the military. </p>
+                <p>“I was trying to do a lap around my neighborhood to get my blood flowing and I was trying to detox and get all the crap out of my system and he just came up real slow behind me and said, ‘Mom, let’s just run down to the end of the street here, you can do it, we’ll just go slow,’” Fisher said. “So I did it, and the next time I did a little more and next time I did a little more.” </p>
+                <p>Adam, would complete training exercises on the patio, like push ups, and she would join him, but he never let her do too much, she said.</p>
+                <p>Now, Fisher said she still deals with, and will forever, some side effects like pain in her feet, legs and hips and “chemo brain,” which affects a person’s ability to remember certain things, complete tasks or learn something new, according to American Cancer Society.</p>
+                <p>The hardest part for Fisher, though, was and still is the emotional recovery. </p>
+                <p>In fall 2016, Fisher shared a PowerPoint presentation with her students, which showed a photo of her after with a newly-shaved head in the wig room at Little Red Door — she had to send her students home that day.</p>
+                <p>“I've looked at these slides 100 times. It was no big deal, but as soon as it popped up on a big screen and I saw [it] larger than life, I had to stop class. I just stood there and bawled,” she said.</p>
+                <p></p>
+
+            </div>
+        </div>
+    </div>
+
+    <br> </br>
+    <div class="container">
+
+        <div class="col-sm-9 bodycopy" style="padding-top:15px">
+            <p><span style="font-family: 'Roboto'; font-size: 22px;"><b>One in a thousand</b></span></p>
+
+            <p>“I was the first person who noticed a lump,” said Dave Sumner, professor emeritus of journalism.
+            </p>
+            <p>That lump was found after the then 64-year-old came home from a June 2010 run. Sumner waited two weeks before seeing a doctor. After a needle biopsy, his suspicion was confirmed: breast cancer.
+            </p>
+            <p>It was a Thursday. By Monday, Sumner had an appointment for a mastectomy.
+            </p>
+            <br>
+            <figure class="smallpic">
+                <img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/a9243b05-f967-47d2-afde-59e9460d665d.sized-1000x1000.jpg" align="right">
+                <figcaption>Professor emeritus of journalism Dave Sumner was diagnosed with breast cancer in 2010. Sumner found the lump after returning from a run.
+                    <br><b><span class="photocredit">Rachel Ellis, DN</span></b>
+                </figcaption>
+            </figure>
+            <br>
+
+            <p>According to the American Cancer Society, 1 in 1,000 men will be diagnosed with breast cancer is his lifetime. In 2018, American Cancer Society estimates 2,550 men will be diagnosed with breast cancer.
+            </p>
+            <p>Of those, 480 will die. </p>
+            <p>“I think the experience of cancer is definitely not a death sentence … It also offers an opportunity to have a deeper and a richer life than you've ever had before,” he said. “I don't want to call it a blessing, but you can use that experience of suffering to make yourself a better person and a more caring person.”
+            </p>
+            <p>When he was diagnosed, Sumner was a magazine-track professor. He taught students how to improve their writing and the technicalities of publishing, but he also gave students an up-close-and-personal look into male breast cancer.
+            </p>
+
+            <figure class="graphic">
+                <back><img class="graphic" align="right" style="float:right;" src="https://s3.amazonaws.com/snwceomedia/bsd/b3c9297b-37ae-4101-b975-4162d8b0af6b.sized-1000x1000.png" align="right"></back>
+            </figure>
+
+            <p>Every Wednesday during the fall 2010 semester, Sumner, who never missed a day of class, would go to his 5-hour chemotherapy appointment in the morning and teach a class in the afternoon — through the chemo, hair loss and diet changes.
+            </p>
+            <p>“I just wanted people to continue to relate to me like they always had,” Sumner said. “I didn't want people [to] start seeing me as a victim or starting asking a lot of questions about my treatment, so I just continued acting like I always had.”
+            </p>
+            <p>Instead of taking the diagnosis as a death sentence, Sumner changed his diet and continued running. He cut out red meat, dairy and took daily supplements to be an active part of his cure.</p>
+            <p>Since 2011, Sumner, now in his 70s, has committed to running a half-marathon every year including the Kentucky Derby Festival miniMarathon and the Indianapolis 500 Festival Mini-Marathon — a tradition he started nine days after he finished radiation therapy.</p>
+            <p>But an active part of his cure wasn’t just about physical well-being, Sumner continued to develop his Christian faith. A woman in her 40s from Sumner’s church was diagnosed around the same time he was. They shared stories and struggles, but she died in 2015, giving Sumner survivor’s guilt, the guilt one feels when they survive something another dies from, according to Memorial Sloan Kettering Cancer Center.</p>
+            <p>“You know, why, why me, God?”</p>
+            <p>“I feel fortunate that God allowed me to continue to live and I felt like, ‘Well, he must have more for me to do,’ but I'm just so sad that not only her, but there was another woman in our church who died just from breast cancer just a year before that,” Sumner said.</p>
+            <p>In the last seven years, Sumner said three women from his church have died from breast cancer.</p>
+            <p>“Sometimes I'm not sure I was the one who deserved [life],” Sumner said.</p>
+
+            <br>
+
+            <p><span style="font-family: 'Roboto'; font-size: 22px;"><b>Winning the war</b></span></p>
+            <p>In another waiting room, the couple is much more relaxed. They joke and tell stories about their dogs. Various people give side-eyed glances as they laugh, something Pareis said was not uncommon for them. On chemo days, Pareis said she, along with family and friends, would play games.
+            </p>
+            <p>“We were always up there joking around and having fun and some people are like, ‘It's chemo, why are you laughing about chemo day?’ [But] why not,” Pareis said. “You've got to have fun to get through craziness like that, so why sit and be depressed about it because it's dark enough as it is.”
+            </p>
+            <p>Despite 28 days of back and forth trips to the hospital, Sollars only missed a couple days as an anchor for Indiana Public Radio and physical class, but on those days, he had digital lessons for his students.
+            </p>
+            <br>
+            <figure class="smallpic">
+                <img class="smallpic" align="right" src="https://s3.amazonaws.com/snwceomedia/bsd/5e4c9ce7-59d8-4246-aa79-3f6ec3b4b141.sized-1000x1000.jpg" align="right">
+                <figcaption>Stan Sollars and his wife Allison Pareis receive good news from Dr. Shadia Jalal. Sollars was diagnosed with esophageal cancer but is now cancer-free.
+                    <br><b><span class="photocredit">Kaiti Sullivan, DN</span></b>
+                </figcaption>
+            </figure>
+            <br>
+
+            <p>“We basically told him you have to stay home. If we were to have given him a choice, he would have been there,” Pareis said. “Right before chemo, we video recorded him teaching his students by himself in the studio. He was just like, ‘They won't miss anything.’”
+            </p>
+            <p>The couple sits in an examination room, the doctor checking his vitals. He shivers as she presses a cold stethoscope to his chest. They hold their breath as the doctor tells them the news — he is clear, a diagnosis that still makes the couple wary.
+            </p>
+            <p>“After I got the all-clear, I said, ‘Now what do we do?’ From the time of the diagnosis up through surgery to post-op, we had definite steps,” Sollars said. “I don’t know what it feels like to be in the armed services, but I can imagine that’s what a soldier feels after they get off the battlefield.
+            </p>
+            <p>“I won the battle, but I had to figure out a way to win the war.”</p>
+            <p>They leave the examination room triumphant. Once more, they stroll through the network of hallways, saying goodbye to the receptionist, back through the sliding glass doors and into the adjacent parking garage.</p>
+            <p>His wife points out the spot where Sollars passed out after a nasty round of chemo. It is a reminder of a scarier time, a landmark of a past battle. The couple got into their car. He pulled out of the garage and onto University Boulevard. Their biggest worry was what they were going to eat for dinner.</p>
+            <p>And for today, that was enough.</p>
+            <br> </br>
+
+        </div>
 
 
-	
-	<hr>
-	<div class="col-sm-6" style="font-family: 'Roboto'; color:#7e7e7e; text-align: left">
+
+
+        <div class="col-lg-12 col-md-12 col-sm-12" style="font-family: 'Roboto'; color:#7e7e7e; text-align: left">
+            <hr>
+            <a name="contactTarget"></a>
+            <div class="col-lg-12" style="font-family:'Roboto'; color:#7e7e7e; text-align: left; margin-bottom:20px">
+              
+              <div class="col-sm-6" style="font-family: 'Roboto'; color:#7e7e7e; text-align: left">
 		Story by <b><g>Brynn Mechem and Mary Freda</b><br>
 		Photography by <b><g>Kaiti Sullivan, Madelie Grosh and Rachel Ellis</b><br>
 		
 		Design and Development by <b><g>Michael Himes and Emily Wright</b><br>
    </p>                                                                                     
 	</div>
-<a name="contactTarget"></a>
-	<div class="col-sm-6" style="font-family:'Roboto'; color:#7e7e7e; text-align: left; margin-bottom:20px">
-		
-		<p><i>Contact Brynn Mechem with comments at <cb><a href="mailto:bamechem@bsu.edu " target= "_blank" style= color:white>bamechem@bsu.edu</a></cb> or on Twitter <br><a href="https://twitter.com/BrynnMechem" target= "_blank" style= color:white>@BrynnMechem. </a>Contact Mary Freda with comments at <a href="mailto:mafreda@bsu.edu" target= "_blank" style= color:white>mafreda@bsu.edu</a> or on Twitter <br><a href="https://twitter.com/Mary_Freda1" target= "_blank" style= color:white>@Mary_Freda1.
-	</a></p></div><a href="http://www.ballstatedaily.com"></i>
-  </div><a href="http://www.ballstatedaily.com"></i>
-                                                       
-	
-
-<script>
-$(window).scroll(function(){
-    $(".topfade").css("opacity", 1 - $(window).scrollTop() / 500);
-  });
-$(function() {
-    $(window).scroll( function(){
-    
-       
-        $('.fadein').each( function(i){
-            
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
-            bottom_of_window = bottom_of_window + 500;  
-          
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},500);
-                    
-            }
-        }); 
-    
-    });
-});
-</script>
-
-<script>
-  
-  
-  
-  //Photo gallery buttons. Changes photo index on click//
-var slideIndex = 1;
-showDivs(slideIndex);
-function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1} 
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
-    }
-    x[slideIndex-1].style.display = "block"; 
-}
-/* new navbar js starts here*/
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-/* new navbar js ends here*/
-// Find all YouTube videos
-var $allVideos = $("iframe[src^='//www.youtube.com']"),
-    // The element that is fluid width
-    $fluidEl = $("body");
-// Figure out and save aspect ratio for each video
-$allVideos.each(function() {
-  $(this)
-    .data('aspectRatio', this.height / this.width)
-    // and remove the hard coded width/height
-    .removeAttr('height')
-    .removeAttr('width');
-});
-// When the window is resized
-$(window).resize(function() {
-  var newWidth = $fluidEl.width();
-  // Resize all videos according to their own aspect ratio
-  $allVideos.each(function() {
-    var $el = $(this);
-    $el
-      .width(newWidth)
-      .height(newWidth * $el.data('aspectRatio'));
-  });
-// Kick off one resize to fix all videos on page load
-}).resize();
-  
-  
-  
-    </script>
-</a></body>
-  
-  
-
-    <script  src="js/index.js"></script>
+              
+              
+                <p>
+                    <i>Contact Brynn Mechem with comments at <cb><a href="mailto:bamechem@bsu.edu " target= "_blank" style= color:white>bamechem@bsu.edu</a>
+        
+        </cb> or on Twitter <a href="https://twitter.com/BrynnMechem" target= "_blank" style= color:white>@BrynnMechem.</a>
+        
+        <br>Contact Mary Freda with comments at<a href="mailto:mafreda@bsu.edu" target= "_blank" style= color:white>mafreda@bsu.edu</a> or on Twitter<a href="https://twitter.com/Mary_Freda1" target= "_blank" style= color:white>@Mary_Freda1.
+	<a href="http://www.ballstatedaily.com">
+    <a href="http://www.ballstatedaily.com">
+        </a>
+                </a>
+                </a>
+            </i>
+                </p>
 
 
+                <script>
+                    $(window).scroll(function() {
+                        $(".topfade").css("opacity", 1 - $(window).scrollTop() / 500);
+                    });
+                    $(function() {
+                        $(window).scroll(function() {
 
 
+                            $('.fadein').each(function(i) {
+
+                                var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                                var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                                /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+                                bottom_of_window = bottom_of_window + 500;
+
+                                if (bottom_of_window > bottom_of_object) {
+
+                                    $(this).animate({
+                                        'opacity': '1'
+                                    }, 500);
+
+                                }
+                            });
+
+                        });
+                    });
+
+                </script>
+
+                <script>
+                    //Photo gallery buttons. Changes photo index on click//
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+
+                    function plusDivs(n) {
+                        showDivs(slideIndex += n);
+                    }
+
+                    function showDivs(n) {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        if (n > x.length) {
+                            slideIndex = 1
+                        }
+                        if (n < 1) {
+                            slideIndex = x.length
+                        };
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        x[slideIndex - 1].style.display = "block";
+                    }
+                    /* new navbar js starts here*/
+                    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+                    function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "nav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "nav";
+                        }
+                    }
+                    /* new navbar js ends here*/
+                    // Find all YouTube videos
+                    var $allVideos = $("iframe[src^='//www.youtube.com']"),
+                        // The element that is fluid width
+                        $fluidEl = $("body");
+                    // Figure out and save aspect ratio for each video
+                    $allVideos.each(function() {
+                        $(this)
+                            .data('aspectRatio', this.height / this.width)
+                            // and remove the hard coded width/height
+                            .removeAttr('height')
+                            .removeAttr('width');
+                    });
+                    // When the window is resized
+                    $(window).resize(function() {
+                        var newWidth = $fluidEl.width();
+                        // Resize all videos according to their own aspect ratio
+                        $allVideos.each(function() {
+                            var $el = $(this);
+                            $el
+                                .width(newWidth)
+                                .height(newWidth * $el.data('aspectRatio'));
+                        });
+                        // Kick off one resize to fix all videos on page load
+                    }).resize();
+
+                </script>
+            </div>
+
+
+        </div>
 </body>
 
 </html>
