@@ -1,0 +1,132 @@
+#container {
+  padding: 0px, 50px;
+  background-color: #191919;
+}
+
+#pullquote {
+  font-family: "Oswald";
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+#attribution {
+  font-family: "Oswald";
+  text-align: left;
+  font-size: 20px;
+  color: #CFCFCE;
+  line-height: .0em;
+}
+
+#rulebottom {
+  height: 2px;
+  border: none;
+  background-color: #CFCFCE;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#ruletop {
+  height: 2px;
+  border: none;
+  background-color: #CFCFCE;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: "Anton" !important;
+  color: #fff !important;
+  text-align: left;
+  font-size: 64px !important;
+}
+
+h2 {
+  font-family: "Oswald" !important;
+  color: #CFCFCE !important;
+  text-align: left;
+}
+
+.bodycopy {
+  font-family: "Roboto";
+  color: #CFCFCE;
+  text-align: left;
+  font-size: 18px;
+}
+
+a:default {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CFCFCE;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #731D17;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+a:active {
+  color: #731D17;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .photobanner {
+    display: none;
+  }
+
+  .mobilepic {
+    display: none;
+  }
+
+  .creditsmobile {
+    display: none;
+  }
+
+  .mobilevideo {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .imagebanner {
+    display: none;
+  }
+
+  .fullpic {
+    display: none;
+  }
+
+  .creditsdesktop {
+    display: none;
+  }
+}
+.smallpic {
+  max-width: 80%;
+  height: auto;
+  margin-left: 0px;
+  float: center;
+  position: relative;
+}
+
+.fullpic {
+  width: 100%;
+  height: auto;
+  margin-left: 0px;
+  float: center;
+  position: relative;
+}
+
+.mobilepic {
+  width: 100%;
+  height: auto;
+  margin-left: 0px;
+  float: center;
+  position: relative;
+}
