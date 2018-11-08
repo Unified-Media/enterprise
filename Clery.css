@@ -115,7 +115,15 @@ a:active {
 }
 
 .smallpic {
-                max-width: 80%;
+                max-width: 100%;
+                height: auto;
+                margin-left: 0px;
+                float: center;
+                position: relative;
+    }
+
+.mug {
+                max-width: 65%;
                 height: auto;
                 margin-left: 0px;
                 float: center;
