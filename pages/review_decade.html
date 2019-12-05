@@ -125,6 +125,40 @@
 
                         <p class="about-copy">“As we continue towards this path towards an even brighter future, we want our students after they graduate, to stay engaged with the institution, continue to be a part of the growth of the institution and continue to be a part of the impact that our institution can have on our community, on our region, on our state and on our country,” he said.</p>
 
+                        <h4 class="name">Successes</h4>
+                        <h6 class="name">Enrollment:</h6>
+                        <p class="about-copy">With 22,541 students, Ball State started the fall 2019 semester with the largest overall student enrollment in its history. The university also welcomed its largest-ever freshman class in fall 2019 with 4,063 new freshmen.</p>
+
+                        <h6 class="name">On-time graduation rate 2016:</h6>
+                        <canvas id="grad2016"> </canvas>
+                        <h6 class="name pt-4">On-time graduation rate 2018:</h6>
+                        <canvas id="grad2018"> </canvas>
+
+                        <h6 class="name pt-4">Alumni engagement and philanthropy:</h6>
+                        <p class="about-copy">President Geoffrey Mearns said Ball State raised more than $33 million in new commitments last academic year. In spring 2019, the university debuted “One Ball State Day” a one-day fundraising event where it raised more than $424,000. The next version of the event will be held April 7, 2020.</p>
+
+                        <h4 class="name">Areas of improvement:</h4>
+                        <h6 class="name">First-to-second-year retention rates:</h6>
+                        <p class="about-copy">Ball State’s retention rates have been dropping every year for the past five years — 81.7 percent in the 2014-15 academic year to 78.3 percent in the 2018-19 academic year. Mearns announced a task force in August 2019 to combat the issue and create a strategy to improve the retention rate.</p>
+
+                        <h6 class="name">Year-by-year rate:</h6>
+                        <canvas id="rate"> </canvas>
+
+                        <h6 class="name pt-4">Non-undergraduate student experience:</h6>
+                        <p class="about-copy">In 2019, of the 6,000-plus new students admitted to Ball State, 23 percent were not first-time or transfer undergraduate students. Mearns said the university could improve in providing flexible and innovative learning opportunities for online and on-campus students pursuing graduate studies, hybrid courses, low-residency courses, students at Ball State’s Indianapolis campus and other types of students.</p>
+
+                        <h6 class="name">Counseling Center:</h6>
+                        <p class="about-copy">Since August, Ball State’s Counseling Center has had more than 1,100 students request its services — more than half the number of students who were by the center last academic year. To counter this, the center started Care Planning Group appointments in November. Mearns said the university will continue focusing its time and attention in supporting students who use the center’s services.</p>
+
+                        <h6 class="name"></h6>
+                        <p class="about-copy"></p>
+
+                        <h6 class="name"></h6>
+                        <p class="about-copy"></p>
+
+
+
+
                         <p class="about-copy"><i>Contact Rohith Rao with comments at rprao@bsu.edu or on Twitter @RaoReports.</i></p>
 
                         </div>
@@ -187,9 +221,85 @@
             <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
             <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
             <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
             <!-- Custom scripts for this template -->
             <script src="js/creative.js"></script>
+            <script src="../js/graphs.js"></script>
+            <script>var ctx = document.getElementById('rate').getContext('2d');
+            var chart = new Chart(ctx, {
+              // The type of chart we want to create
+              type: 'bar',
+              // The data for our dataset
+              data: {
+                labels: ['2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018'],
+                datasets: [{
+                  label: 'Year-by-year retention rate',
+                  backgroundColor: 'rgba(12, 124, 89, 0.7)',
+                    borderColor: 'rgba(255, 255, 255, 0)',
+                  data: [78.40, 79.60, 79.40, 77.00, 78.88, 81.70, 81.67, 81.35, 78.50, 78.30,]
+                },
+              ]
+              },
+              // Configuration options go here
+              options: {
+                  scales: {
+                  yAxes: [{
+                    ticks: {
+                      suggestedMin: 0,
+                        suggestedMax: 100,
+                    }
+                  }]
+                }
+
+
+              }
+            });
+
+            var ctx = document.getElementById('grad2016').getContext('2d');
+            var chart = new Chart(ctx, {
+              // The type of chart we want to create
+              type: 'pie',
+              // The data for our dataset
+              data: {
+                labels: ['Did not graduate on time', 'Graduated on time'],
+                datasets: [{
+                  label: '2016',
+                  backgroundColor: ['rgba(239, 118, 116, 1)', 'rgba(12, 124, 89, 1)'],
+                  borderColor: ['rgba(239, 118, 116, 1)', 'rgba(12, 124, 89, 1)'],
+                  data: [53.2, 46.8]
+                }
+              ]
+              },
+              // Configuration options go here
+              options: {
+
+
+
+              }
+            });
+            var ctx = document.getElementById('grad2018').getContext('2d');
+            var chart = new Chart(ctx, {
+              // The type of chart we want to create
+              type: 'pie',
+              // The data for our dataset
+              data: {
+                labels: ['Did not graduate on time', 'Graduated on time'],
+                datasets: [{
+                  label: '2016',
+                  backgroundColor: ['rgba(239, 118, 116, 1)', 'rgba(12, 124, 89, 1)'],
+                  borderColor: ['rgba(239, 118, 116, 1)', 'rgba(12, 124, 89, 1)'],
+                  data: [45.8, 54.2]
+                }
+              ]
+              },
+              // Configuration options go here
+              options: {
+
+
+              }
+            });
+        </script>
+
 
 
 </body>
