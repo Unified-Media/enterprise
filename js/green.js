@@ -8,8 +8,8 @@ var chart = new Chart(ctx, {
         labels: ['2007', '2016', '2024'],
         datasets: [{
             label: 'Metric tons of carbon dioxide',
-            backgroundColor: 'rgb(12, 124, 89)',
-            borderColor: 'rgb(12, 124, 89)',
+            backgroundColor: 'rgba(12, 124, 89, 0.7)',
+            borderColor: 'rgba(255, 255, 255, 0)',
             data: [159250, 104442, 60000]
         }
     ]
