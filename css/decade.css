@@ -61,6 +61,7 @@ a:hover {
 .about-link {
     color: rgba(0, 0, 0, 0.72);
     text-decoration: none;
+    font-family: "Source Sans Pro";
 }
 
 h1,
