@@ -6,12 +6,12 @@ var chart = new Chart(ctx, {
   data: {
     labels: ['2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14', '2014-15', '1015-16', '2016-17', '2017-18'],
     datasets: [{
-      label: 'Bachelor\'s Degree',
+      label: 'Bachelor\'s Degrees',
       backgroundColor: 'rgba(12, 124, 89, 0.7)',
         borderColor: 'rgba(255, 255, 255, 0)',
       data: [3057, 3125, 3173, 3299, 3603, 3591, 3682, 3454, 3427, 3361]
     },{
-      label: 'Masters\'s Degree',
+      label: 'Masters\'s Degrees',
       backgroundColor: 'rgba(43, 48, 58, 0.7)',
       borderColor: 'rgba(255, 255, 255, 0)',
       data: [1004, 1212, 1302, 1360, 1692, 1556, 1464, 1554, 1702, 1815]
