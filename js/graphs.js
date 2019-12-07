@@ -58,6 +58,7 @@ var chart = new Chart(ctx, {
   type: 'pie',
   // The data for our dataset
   data: {
+    labels: ['International/Non resident alien', 'Hispanic/Latino', 'Black or African American', 'White', 'American Indian or Alaskan Native', 'Asians', 'Native Hawaiian or other Pacific Islander', 'Two or more races', 'Unknown'],
     datasets: [{
       label: 'Fall 2010',
       backgroundColor: ['rgba(239, 118, 116, 1)', 'rgba(12, 124, 89, 1)', 'rgba(236, 87, 102, 1)', 'rgba(43, 48, 58, 1)', 'rgba(193, 41, 46, 1)', 'rgb(242, 192, 191)', 'rgb(81, 201, 163)', 'rgb(186, 69, 81)', 'rgb(100, 112, 135)'],
@@ -115,6 +116,7 @@ var chart = new Chart(ctx, {
   type: 'pie',
   // The data for our dataset
   data: {
+    labels: ['International/Non resident alien', 'Hispanic/Latino', 'Black or African American', 'White', 'American Indian or Alaskan Native', 'Asians', 'Native Hawaiian or other Pacific Islander', 'Two or more races', 'Unknown'],
     datasets: [{
       label: 'Fall 2019',
       backgroundColor: ['rgba(239, 118, 116, 1)', 'rgba(12, 124, 89, 1)', 'rgba(236, 87, 102, 1)', 'rgba(43, 48, 58, 1)', 'rgba(193, 41, 46, 1)', 'rgb(242, 192, 191)', 'rgb(81, 201, 163)', 'rgb(186, 69, 81)', 'rgb(100, 112, 135)'],
