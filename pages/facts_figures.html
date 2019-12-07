@@ -2,16 +2,7 @@
 <html lang="en">
 
   <head>
-              <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36364013-3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'UA-36364013-3');
-    </script>
-    <link rel="icon" href="https://s3.amazonaws.com/snwceomedia/bsd/7edd4ef8-2b83-4429-87a6-e617ec5072ed.sized-1000x1000.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -43,15 +34,21 @@
   <style>
 
         @media (min-width: 400px) {
-            #fresh {
+            #freshMOB {
                 display: none;
             }
 
 
-            #fresh {
-                display: none;
-            }
       }
+      @media (max-width: 401px) {
+          #freshDESK {
+              display: none;
+          }
+
+
+
+    }
+
 
   </style>
   <body id="page-top">
@@ -125,17 +122,17 @@
 
 
 
-                        <div class="col-lg-10 col-md-12 col-sm-12 pl-3 pr-3">
+                        <div class="col-lg-10 col-md-12 col-sm-12 pl-3 pr-3 pb-2">
                             <h4 class="name pb-2">Ethnicity 2010:</h4>
-                            <canvas id="freshmen2010"></canvas>
-                            <div id="fresh"><canvas id="fresh2010" ></canvas></div>
+                            <div id="freshDESK"><canvas id="freshmen2010"></canvas></div>
+                            <div id="freshMOB"><canvas id="fresh2010" height=325></canvas></div>
                         </div>
 
                         <div class="col-lg-2 col-sm-6 pl-3 pr-3"></div>
                         <div class="col-lg-10 col-md-12 col-sm-12 pl-3 pr-3" style="padding-bottom:70px;">
                             <h4 class="name pb-2">Ethnicity 2019:</h4>
-                            <canvas id="freshmen2019" ></canvas>
-                            <div id="fresh"><canvas id="fresh2019" ></canvas></div>
+                            <div id="freshDESK"><canvas id="freshmen2019" ></canvas></div>
+                            <div id="freshMOB"><canvas id="fresh2019" height=325></canvas></div>
                         </div>
 
                         <div class="col-lg-2 col-sm-6 pl-3 pr-3">
