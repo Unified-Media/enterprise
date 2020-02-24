@@ -44,20 +44,22 @@ mark{
 }
 .headings{
     font-size: 55px;
-    margin-bottom: -16px
+    margin-bottom: -16px;
+    margin-top: 6rem!important
 }
 .underhead{
     height: 15px;
     width: 100%;
     background-color: #CE050F;
     padding: 6px 20px 0px 20px;
+    margin-bottom: 20px
 }
 .subunderhead{
     height: 46px;
     width: 100%;
     background-color: #CE050F;
     padding: 6px 20px 0px 20px;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.1px;
 }
 .bodycol{
     /* border-left: 2px solid lightgray;
@@ -89,3 +91,9 @@ mark{
 .flourish-credit{
     display:none!important;
   }
+
+ .attribute{
+     font-size: 18px;
+     margin: -100px 0 0 0;
+     font-family: 'Roboto Condensed', sans-serif!important;
+ }
