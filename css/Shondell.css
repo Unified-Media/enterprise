@@ -57,14 +57,14 @@ mark{
     width: 100%;
     background-color: #CE050F;
     padding: 6px 20px 0px 20px;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.2px;
 }
 .bodycol{
     /* border-left: 2px solid lightgray;
     border-right: 2px solid lightgray; */
 }
 .subheadings{
-    font-size: 30px;
+    font-size: 29px;
     color: white;
 
 }
