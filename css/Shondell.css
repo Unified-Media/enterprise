@@ -97,3 +97,9 @@ mark{
      margin: -100px 0 0 0;
      font-family: 'Roboto Condensed', sans-serif!important;
  }
+
+ .nextBu{
+     height: 50px;
+     background-color: #CE050F;
+     letter-spacing: 1.05px;
+ }
