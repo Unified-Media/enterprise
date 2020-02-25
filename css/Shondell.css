@@ -103,3 +103,13 @@ mark{
      background-color: #CE050F;
      letter-spacing: 1.05px;
  }
+
+ .blink_me {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
