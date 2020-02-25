@@ -104,6 +104,16 @@ mark{
      letter-spacing: 1.05px;
  }
 
+ .slinks{
+     color: #CE050F;
+     text-decoration: none;
+ }
+
+ .slinks:hover{
+     color: darkgray;
+     text-decoration: none;
+ }
+
  .blink_me {
   animation: blinker 3s linear infinite;
 }
